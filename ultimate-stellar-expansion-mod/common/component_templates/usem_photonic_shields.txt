@@ -94,73 +94,73 @@
 #	POWER	#
 #############
 
-@power_s6 = -60
-@power_m6 = -120
-@power_l6 = -240
+@power_s6 = -15
+@power_m6 = -30
+@power_l6 = -60
              
-@power_s7 = -75
-@power_m7 = -150
-@power_l7 = -300
+@power_s7 = -20
+@power_m7 = -40
+@power_l7 = -80
              
-@power_s8 = -95
-@power_m8 = -190
-@power_l8 = -380
+@power_s8 = -25
+@power_m8 = -50
+@power_l8 = -100
              
-@power_s9 = -115
-@power_m9 = -230
-@power_l9 = -460
+@power_s9 = -35
+@power_m9 = -70
+@power_l9 = -140
              
-@power_s10 = -140
-@power_m10 = -280
-@power_l10 = -560
+@power_s10 = -45
+@power_m10 = -90
+@power_l10 = -180
 
 #############
 #   SHIELD	#
 #############
 
-@shield_s6 = 175
+@shield_s6 = 200
 @shield_m6 = 500
-@shield_l6 = 1060
+@shield_l6 = 1200
 
-@shield_s7 = 215
-@shield_m7 = 635
-@shield_l7 = 1300
+@shield_s7 = 260
+@shield_m7 = 640
+@shield_l7 = 1560
 
-@shield_s8 = 260
-@shield_m8 = 790
-@shield_l8 = 1570
+@shield_s8 = 340
+@shield_m8 = 860
+@shield_l8 = 2040
 
-@shield_s9 = 310
-@shield_m9 = 965
-@shield_l9 = 1870
+@shield_s9 = 440
+@shield_m9 = 1100
+@shield_l9 = 2640
 
-@shield_s10 = 365
-@shield_m10 = 1160
-@shield_l10 = 2200
+@shield_s10 = 580
+@shield_m10 = 1460
+@shield_l10 = 3480
 
 #############
 #	REGEN	#
 #############
 
-@regen_s6 = 1.75
+@regen_s6 = 2.0
 @regen_m6 = 5.0
-@regen_l6 = 10.60
+@regen_l6 = 12.0
 
-@regen_s7 = 2.15
-@regen_m7 = 6.35
-@regen_l7 = 13.00
+@regen_s7 = 2.6
+@regen_m7 = 6.4
+@regen_l7 = 15.6
 
-@regen_s8 = 2.60
-@regen_m8 = 7.90
-@regen_l8 = 15.70
+@regen_s8 = 3.4
+@regen_m8 = 8.6
+@regen_l8 = 20.4
 
-@regen_s9 = 3.10
-@regen_m9 = 9.65
-@regen_l9 = 18.70
+@regen_s9 = 4.4
+@regen_m9 = 11.0
+@regen_l9 = 26.4
 
-@regen_s10 = 3.65
-@regen_m10 = 11.60
-@regen_l10 = 22.00
+@regen_s10 = 5.8
+@regen_m10 = 14.6
+@regen_l10 = 34.8
 
 #############
 #  SHIELDS	#
