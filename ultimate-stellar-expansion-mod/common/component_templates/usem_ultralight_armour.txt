@@ -3,95 +3,95 @@
 #############
 
 # Alloys
-@cost_alloys_s6 = 28
-@cost_alloys_m6 = 56
-@cost_alloys_l6 = 112
+@cost_alloys_s6 = 10
+@cost_alloys_m6 = 20
+@cost_alloys_l6 = 40
            
-@cost_alloys_s7 = 35
-@cost_alloys_m7 = 70
-@cost_alloys_l7 = 140
+@cost_alloys_s7 = 13
+@cost_alloys_m7 = 26
+@cost_alloys_l7 = 52
 
-@cost_alloys_s8 = 43
-@cost_alloys_m8 = 86
-@cost_alloys_l8 = 172
+@cost_alloys_s8 = 17
+@cost_alloys_m8 = 34
+@cost_alloys_l8 = 68
            
-@cost_alloys_s9 = 52
-@cost_alloys_m9 = 104
-@cost_alloys_l9 = 208
+@cost_alloys_s9 = 17
+@cost_alloys_m9 = 34
+@cost_alloys_l9 = 68
            
-@cost_alloys_s10 = 62
-@cost_alloys_m10 = 124
-@cost_alloys_l10 = 248
+@cost_alloys_s10 = 22
+@cost_alloys_m10 = 44
+@cost_alloys_l10 = 88
 
 #############
 #	UPKEEP	#
 #############
 
 # Energy
-@upkeep_energy_s6 = 0.28
-@upkeep_energy_m6 = 0.56
-@upkeep_energy_l6 = 1.12
+@upkeep_energy_s6 = 0.10
+@upkeep_energy_m6 = 0.20
+@upkeep_energy_l6 = 0.40
 
-@upkeep_energy_s7 = 0.35
-@upkeep_energy_m7 = 0.70
-@upkeep_energy_l7 = 1.40
+@upkeep_energy_s7 = 0.13
+@upkeep_energy_m7 = 0.26
+@upkeep_energy_l7 = 0.52
 
-@upkeep_energy_s8 = 0.43
-@upkeep_energy_m8 = 0.86
-@upkeep_energy_l8 = 1.72
+@upkeep_energy_s8 = 0.17
+@upkeep_energy_m8 = 0.34
+@upkeep_energy_l8 = 0.68
 
-@upkeep_energy_s9 = 0.52
-@upkeep_energy_m9 = 1.04
-@upkeep_energy_l9 = 2.08
+@upkeep_energy_s9 = 0.17
+@upkeep_energy_m9 = 0.34
+@upkeep_energy_l9 = 0.68
 
-@upkeep_energy_s10 = 0.62
-@upkeep_energy_m10 = 1.24
-@upkeep_energy_l10 = 2.48
+@upkeep_energy_s10 = 0.22
+@upkeep_energy_m10 = 0.44
+@upkeep_energy_l10 = 0.88
 
 # Alloys
-@upkeep_alloys_s6 = 0.056
-@upkeep_alloys_m6 = 0.112
-@upkeep_alloys_l6 = 0.224
+@upkeep_alloys_s6 = 0.020
+@upkeep_alloys_m6 = 0.040
+@upkeep_alloys_l6 = 0.080
 
-@upkeep_alloys_s7 = 0.070
-@upkeep_alloys_m7 = 0.140
-@upkeep_alloys_l7 = 0.280
+@upkeep_alloys_s7 = 0.026
+@upkeep_alloys_m7 = 0.052
+@upkeep_alloys_l7 = 0.104
 
-@upkeep_alloys_s8 = 0.086
-@upkeep_alloys_m8 = 0.172
-@upkeep_alloys_l8 = 0.344
+@upkeep_alloys_s8 = 0.034
+@upkeep_alloys_m8 = 0.068
+@upkeep_alloys_l8 = 0.136
 
-@upkeep_alloys_s9 = 0.104
-@upkeep_alloys_m9 = 0.208
-@upkeep_alloys_l9 = 0.416
+@upkeep_alloys_s9 = 0.034
+@upkeep_alloys_m9 = 0.068
+@upkeep_alloys_l9 = 0.136
 
-@upkeep_alloys_s10 = 0.124
-@upkeep_alloys_m10 = 0.248
-@upkeep_alloys_l10 = 0.496
+@upkeep_alloys_s10 = 0.044
+@upkeep_alloys_m10 = 0.088
+@upkeep_alloys_l10 = 0.176
 
 #############
 #	ARMOR	#
 #############
 
-@armor_s6 = 175
+@armor_s6 = 200
 @armor_m6 = 500
-@armor_l6 = 1060
+@armor_l6 = 1200
 
-@armor_s7 = 215
-@armor_m7 = 635
-@armor_l7 = 1300
+@armor_s7 = 260
+@armor_m7 = 640
+@armor_l7 = 1560
 
-@armor_s8 = 260
-@armor_m8 = 790
-@armor_l8 = 1570
+@armor_s8 = 340
+@armor_m8 = 860
+@armor_l8 = 2040
 
-@armor_s9 = 310
-@armor_m9 = 965
-@armor_l9 = 1870
+@armor_s9 = 440
+@armor_m9 = 1100
+@armor_l9 = 2640
 
-@armor_s10 = 365
-@armor_m10 = 1160
-@armor_l10 = 2200
+@armor_s10 = 580
+@armor_m10 = 1460
+@armor_l10 = 3480
 
 # Ultra-light Nanocomposite Armor VI
 utility_component_template = {
