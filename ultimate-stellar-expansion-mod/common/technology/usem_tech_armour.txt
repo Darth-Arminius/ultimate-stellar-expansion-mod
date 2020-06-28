@@ -1,0 +1,165 @@
+# Ultra-light Nanocomposite Materials VI
+usem_tech_ship_armor_6 = {
+	area = engineering
+	cost = @tier4cost3
+	tier = 4
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "tech_ship_armor_5" }
+	weight = @tier4weight3
+		
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 # rush component!
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Ultra-light Ceramo-Metal Materials VII
+usem_tech_ship_armor_7 = {
+	area = engineering
+	cost = @tier5cost1
+	tier = 5
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "usem_tech_ship_armor_6" }
+	weight = @tier5weight1
+		
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 # rush component!
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Ultra-light Plasteel Materials VIII
+usem_tech_ship_armor_8 = {
+	area = engineering
+	cost = @tier5cost2
+	tier = 5
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "usem_tech_ship_armor_7" }
+	weight = @tier5weight2
+		
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 # rush component!
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Ultra-light Durasteel Materials IX
+usem_tech_ship_armor_9 = {
+	area = engineering
+	cost = @tier5cost3
+	tier = 5
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "usem_tech_ship_armor_8" }
+	weight = @tier5weight3
+		
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 # rush component!
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Ultra-light Neutronium Materials X
+usem_tech_ship_armor_10 = {
+	area = engineering
+	cost = @tier5cost3
+	tier = 5
+	is_rare = yes
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "usem_tech_ship_armor_9" }
+	weight = @tier5weight3
+		
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 # rush component!
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}

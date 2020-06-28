@@ -1,0 +1,34 @@
+component_set = {
+	key = "USEM_ARMOR_6"
+	
+	icon = "GFX_usem_ship_part_armor_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_ARMOR_7"
+	
+	icon = "GFX_usem_ship_part_armor_7"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_ARMOR_8"
+	
+	icon = "GFX_usem_ship_part_armor_8"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_ARMOR_9"
+	
+	icon = "GFX_usem_ship_part_armor_9"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_ARMOR_10"
+	
+	icon = "GFX_usem_ship_part_armor_10"
+	icon_frame = 1	
+}

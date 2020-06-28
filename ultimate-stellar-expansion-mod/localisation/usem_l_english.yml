@@ -1,0 +1,99 @@
+l_english:
+
+ #############
+ #  SHIELDS  #
+ #############
+
+ # Photonic Deflectors
+
+ usem_tech_shields_6:0 "Photonic Deflectors VI"
+ usem_tech_shields_6_desc:0 "Advancements in optics and quantum particles has led us to this new generation of shield technology. Highly concentrated photons are able to create an almost solid like bubble and is especially effective at absorbing energy weapons. Currently, this technology is new and highly advanced so we're only capable of using it in smaller components but with further study and advancements, we could potentially create impenetrable shields.\n\n"
+
+ USEM_SMALL_SHIELD_6:0 "Small Photonic Deflectors"
+ USEM_MEDIUM_SHIELD_6:0 "Medium Photonic Deflectors"
+ USEM_LARGE_SHIELD_6:0 "Large Photonic Deflectors"
+
+ # Improved Photonic Deflectors
+
+ usem_tech_shields_7:0 "Improved Photonic Deflectors VII"
+ usem_tech_shields_7_desc:0 "We have improved on the photonic shielding technology and can now field larger and more dense deflectors.\n\n"
+
+ USEM_SMALL_SHIELD_7:0 "Small Improved Photonic Deflectors"
+ USEM_MEDIUM_SHIELD_7:0 "Medium Improved Photonic Deflectors"
+ USEM_LARGE_SHIELD_7:0 "Large Improved Photonic Deflectors"
+
+ # Photonic Shields
+
+ usem_tech_shields_8:0 "Photonic Shields VIII"
+ usem_tech_shields_8_desc:0 "More advancements have led us to further miniaturisation and density of the photonic shielding tech, allowing us to use this technology in the larger, more conventional standard shield size.\n\n"
+
+ USEM_SMALL_SHIELD_8:0 "Small Photonic Shields"
+ USEM_MEDIUM_SHIELD_8:0 "Medium Photonic Shields"
+ USEM_LARGE_SHIELD_8:0 "Large Photonic Shields"
+
+ # Advanced Photonic Shields
+
+ usem_tech_shields_9:0 "Advanced Photonic Shields IX"
+ usem_tech_shields_9_desc:0 "Perfection of the density level and miniaturisation has resulted in these Advanced Photonic Shields. Scientists are claiming that this is as far as the technology can be pushed with the current level of understanding in our scientific community, we would need to break the bounds of the universe to advance on this.\n\n"
+
+ USEM_SMALL_SHIELD_9:0 "Small Advanced Photonic Shields"
+ USEM_MEDIUM_SHIELD_9:0 "Medium Advanced Photonic Shields"
+ USEM_LARGE_SHIELD_9:0 "Large Advanced Photonic Shields"
+
+ # Ultimate Photonic Shields
+
+ usem_tech_shields_10:0 "Ultimate Photonic Shields X"
+ usem_tech_shields_10_desc:0 "We've done it. Against all odds, against the very universe itself, we have managed to break the bounds of quantum technology and push the very limits of physics to new, unimaginable heights. These shields are but a fraction of the capabilities of this technology. With them, nothing can stop us.\n\n"
+
+ USEM_SMALL_SHIELD_10:0 "Small Ultimate Photonic Shields"
+ USEM_MEDIUM_SHIELD_10:0 "Medium Ultimate Photonic Shields"
+ USEM_LARGE_SHIELD_10:0 "Large Ultimate Photonic Shields"
+
+ #############
+ #  ARMOUR   #
+ #############
+
+ # Ultra-light Nanocomposite Materials
+
+ usem_tech_ship_armor_6:0 "Ultra-light Nanocomposite Materials VI"
+ usem_tech_ship_armor_6_desc:0 "Advancements in miniaturisation and compacting mass has allowed our scientists and engineers to create a far denser yet lighter and relatively smaller armour plating using nanocomposite materials. This plating is stronger than that made from neutronium materials simply due to it's greater density while maintaining the same mass and size. We should look into replicating this technology with stronger materials.\n\n"
+
+ USEM_SMALL_ARMOR_6:0 "Small Ultra-light Nanocomposite Materials"
+ USEM_MEDIUM_ARMOR_6:0 "Medium Ultra-light Nanocomposite Materials"
+ USEM_LARGE_ARMOR_6:0 "Large Ultra-light Nanocomposite Materials"
+
+ # Ultra-light Ceramo-Metal Materials
+
+ usem_tech_ship_armor_7:0 "Ultra-light Ceramo-Metal Materials VII"
+ usem_tech_ship_armor_7_desc:0 "Our scientists have made steady progress in this new wave of ultra-light materials and have managed to apply the same technology to ceramo-metal materials.\n\n"
+
+ USEM_SMALL_ARMOR_7:0 "Small Ultra-light Ceramo-Metal Materials"
+ USEM_MEDIUM_ARMOR_7:0 "Medium Ultra-light Ceramo-Metal Materials"
+ USEM_LARGE_ARMOR_7:0 "Large Ultra-light Ceramo-Metal Materials"
+
+ # Ultra-light Plasteel Materials
+
+ usem_tech_ship_armor_8:0 "Ultra-light Plasteel Materials VIII"
+ usem_tech_ship_armor_8_desc:0 "Progress continues and now plasteel materials are lighter than ever.\n\n"
+
+ USEM_SMALL_ARMOR_8:0 "Small Ultra-light Plasteel Materials"
+ USEM_MEDIUM_ARMOR_8:0 "Medium Ultra-light Plasteel Materials"
+ USEM_LARGE_ARMOR_8:0 "Large Ultra-light Plasteel Materials"
+
+ # Ultra-light Durasteel Materials
+
+ usem_tech_ship_armor_9:0 "Ultra-light Durasteel Materials IX"
+ usem_tech_ship_armor_9_desc:0 "This was a difficult one to crack, and our scientists believed it was all over at plasteel, but a breakthrough was made and at long last durasteel has been given the ultra-light treatment. At this point the difficulty in compacting and miniaturising materials denser and stronger than durasteel is immense and many in the scientific community believe this is as far as it can be pushed.\n\n"
+
+ USEM_SMALL_ARMOR_9:0 "Small Ultra-light Durasteel Materials"
+ USEM_MEDIUM_ARMOR_9:0 "Medium Ultra-light Durasteel Materials"
+ USEM_LARGE_ARMOR_9:0 "Large Ultra-light Durasteel Materials"
+
+ # Ultra-light Neutronium Materials
+
+ usem_tech_ship_armor_10:0 "Ultra-light Neutronium Materials X"
+ usem_tech_ship_armor_10_desc:0 "Despite the task being seemingly impossible, our genius scientists have done it again. They have successfully made the toughest and strongest material in the universe, ultra-light. We are now capable of fielding ships with armour denser than was ever imaginable.\n\n"
+
+ USEM_SMALL_ARMOR_10:0 "Small Ultra-light Neutronium Materials"
+ USEM_MEDIUM_ARMOR_10:0 "Medium Ultra-light Neutronium Materials"
+ USEM_LARGE_ARMOR_10:0 "Large Ultra-light Neutronium Materials"

@@ -1,0 +1,709 @@
+#############
+#	COST	#
+#############
+
+# Alloys
+@cost_alloys_s6 = 15
+@cost_alloys_m6 = 28
+@cost_alloys_l6 = 56
+
+@cost_alloys_s7 = 19
+@cost_alloys_m7 = 35
+@cost_alloys_l7 = 70
+
+@cost_alloys_s8 = 23
+@cost_alloys_m8 = 43
+@cost_alloys_l8 = 86
+
+@cost_alloys_s9 = 28
+@cost_alloys_m9 = 52
+@cost_alloys_l9 = 104
+
+@cost_alloys_s10 = 33
+@cost_alloys_m10 = 62
+@cost_alloys_l10 = 124
+
+# Exotic gas
+@cost_gas_s6 = 0.400
+@cost_gas_m6 = 0.800
+@cost_gas_l6 = 1.600
+
+@cost_gas_s7 = 0.500
+@cost_gas_m7 = 1.000
+@cost_gas_l7 = 2.000
+
+@cost_gas_s8 = 0.600
+@cost_gas_m8 = 1.200
+@cost_gas_l8 = 2.400
+
+@cost_gas_s9 = 0.700
+@cost_gas_m9 = 1.400
+@cost_gas_l9 = 2.800
+
+@cost_gas_s10 = 0.800
+@cost_gas_m10 = 1.600
+@cost_gas_l10 = 3.200
+
+#############
+#	UPKEEP	#
+#############
+
+# Energy
+@upkeep_energy_s6 = 0.16
+@upkeep_energy_m6 = 0.28
+@upkeep_energy_l6 = 0.56
+
+@upkeep_energy_s7 = 0.20
+@upkeep_energy_m7 = 0.35
+@upkeep_energy_l7 = 0.70
+
+@upkeep_energy_s8 = 0.24
+@upkeep_energy_m8 = 0.43
+@upkeep_energy_l8 = 0.86
+
+@upkeep_energy_s9 = 0.29
+@upkeep_energy_m9 = 0.52
+@upkeep_energy_l9 = 1.04
+
+@upkeep_energy_s10 = 0.34
+@upkeep_energy_m10 = 0.62
+@upkeep_energy_l10 = 1.24
+
+# Alloys
+@upkeep_alloys_s6 = 0.030
+@upkeep_alloys_m6 = 0.056
+@upkeep_alloys_l6 = 0.112
+
+@upkeep_alloys_s7 = 0.038
+@upkeep_alloys_m7 = 0.070
+@upkeep_alloys_l7 = 0.140
+
+@upkeep_alloys_s8 = 0.046
+@upkeep_alloys_m8 = 0.086
+@upkeep_alloys_l8 = 0.172
+
+@upkeep_alloys_s9 = 0.056
+@upkeep_alloys_m9 = 0.104
+@upkeep_alloys_l9 = 0.208
+
+@upkeep_alloys_s10 = 0.066
+@upkeep_alloys_m10 = 0.124
+@upkeep_alloys_l10 = 0.248
+
+#############
+#	POWER	#
+#############
+
+@power_s6 = -60
+@power_m6 = -120
+@power_l6 = -240
+             
+@power_s7 = -75
+@power_m7 = -150
+@power_l7 = -300
+             
+@power_s8 = -95
+@power_m8 = -190
+@power_l8 = -380
+             
+@power_s9 = -115
+@power_m9 = -230
+@power_l9 = -460
+             
+@power_s10 = -140
+@power_m10 = -280
+@power_l10 = -560
+
+#############
+#   SHIELD	#
+#############
+
+@shield_s6 = 175
+@shield_m6 = 500
+@shield_l6 = 1060
+
+@shield_s7 = 215
+@shield_m7 = 635
+@shield_l7 = 1300
+
+@shield_s8 = 260
+@shield_m8 = 790
+@shield_l8 = 1570
+
+@shield_s9 = 310
+@shield_m9 = 965
+@shield_l9 = 1870
+
+@shield_s10 = 365
+@shield_m10 = 1160
+@shield_l10 = 2200
+
+#############
+#	REGEN	#
+#############
+
+@regen_s6 = 1.75
+@regen_m6 = 5.0
+@regen_l6 = 10.60
+
+@regen_s7 = 2.15
+@regen_m7 = 6.35
+@regen_l7 = 13.00
+
+@regen_s8 = 2.60
+@regen_m8 = 7.90
+@regen_l8 = 15.70
+
+@regen_s9 = 3.10
+@regen_m9 = 9.65
+@regen_l9 = 18.70
+
+@regen_s10 = 3.65
+@regen_m10 = 11.60
+@regen_l10 = 22.00
+
+#############
+#  SHIELDS	#
+#############
+
+# Photonic Deflectors VI
+utility_component_template = {
+
+	key = "USEM_SMALL_SHIELD_6"
+	size = small
+	icon = "GFX_usem_ship_part_shield_6"
+	icon_frame = 1
+	power = @power_s6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s6
+			exotic_gases = @cost_gas_s6
+		}
+		upkeep = {
+			energy = @upkeep_energy_s6
+			alloys = @upkeep_alloys_s6
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_s6
+		ship_shield_regen_add_static = @regen_s6
+	}
+	prerequisites = { "usem_tech_shields_6" }
+	component_set = "USEM_SHIELD_6"
+	upgrades_to = "USEM_SMALL_SHIELD_7"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_MEDIUM_SHIELD_6"
+	size = medium
+	icon = "GFX_usem_ship_part_shield_6"
+	icon_frame = 1
+	power = @power_m6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m6
+			exotic_gases = @cost_gas_m6
+		}
+		upkeep = {
+			energy = @upkeep_energy_m6
+			alloys = @upkeep_alloys_m6
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_m6
+		ship_shield_regen_add_static = @regen_m6
+	}
+	prerequisites = { "usem_tech_shields_6" }
+	component_set = "USEM_SHIELD_6"
+	upgrades_to = "USEM_MEDIUM_SHIELD_7"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_LARGE_SHIELD_6"
+	size = large
+	icon = "GFX_usem_ship_part_shield_6"
+	icon_frame = 1
+	power = @power_l6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l6
+			exotic_gases = @cost_gas_l6
+		}
+		upkeep = {
+			energy = @upkeep_energy_l6
+			alloys = @upkeep_alloys_l6
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_l6
+		ship_shield_regen_add_static = @regen_l6
+	}
+	prerequisites = { "usem_tech_shields_6" }
+	component_set = "USEM_SHIELD_6"
+	upgrades_to = "USEM_LARGE_SHIELD_7"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+# Improved Photonic Deflectors VII
+utility_component_template = {
+
+	key = "USEM_SMALL_SHIELD_7"
+	size = small
+	icon = "GFX_usem_ship_part_shield_7"
+	icon_frame = 1
+	power = @power_s7
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s7
+			exotic_gases = @cost_gas_s7
+		}
+		upkeep = {
+			energy = @upkeep_energy_s7
+			alloys = @upkeep_alloys_s7
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_s7
+		ship_shield_regen_add_static = @regen_s7
+	}
+	prerequisites = { "usem_tech_shields_7" }
+	component_set = "USEM_SHIELD_7"
+	upgrades_to = "USEM_SMALL_SHIELD_8"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_MEDIUM_SHIELD_7"
+	size = medium
+	icon = "GFX_usem_ship_part_shield_7"
+	icon_frame = 1
+	power = @power_m7
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m7
+			exotic_gases = @cost_gas_m7
+		}
+		upkeep = {
+			energy = @upkeep_energy_m7
+			alloys = @upkeep_alloys_m7
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_m7
+		ship_shield_regen_add_static = @regen_m7
+	}
+	prerequisites = { "usem_tech_shields_7" }
+	component_set = "USEM_SHIELD_7"
+	upgrades_to = "USEM_MEDIUM_SHIELD_8"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_LARGE_SHIELD_7"
+	size = large
+	icon = "GFX_usem_ship_part_shield_7"
+	icon_frame = 1
+	power = @power_l7
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l7
+			exotic_gases = @cost_gas_l7
+		}
+		upkeep = {
+			energy = @upkeep_energy_l7
+			alloys = @upkeep_alloys_l7
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_l7
+		ship_shield_regen_add_static = @regen_l7
+	}
+	prerequisites = { "usem_tech_shields_7" }
+	component_set = "USEM_SHIELD_7"
+	upgrades_to = "USEM_LARGE_SHIELD_8"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+# Photonic Shields VIII
+utility_component_template = {
+
+	key = "USEM_SMALL_SHIELD_8"
+	size = small
+	icon = "GFX_usem_ship_part_shield_8"
+	icon_frame = 1
+	power = @power_s8
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s8
+			exotic_gases = @cost_gas_s8
+		}
+		upkeep = {
+			energy = @upkeep_energy_s8
+			alloys = @upkeep_alloys_s8
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_s8
+		ship_shield_regen_add_static = @regen_s8
+	}
+	prerequisites = { "usem_tech_shields_8" }
+	component_set = "USEM_SHIELD_8"
+	upgrades_to = "USEM_SMALL_SHIELD_9"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_MEDIUM_SHIELD_8"
+	size = medium
+	icon = "GFX_usem_ship_part_shield_8"
+	icon_frame = 1
+	power = @power_m8
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m8
+			exotic_gases = @cost_gas_m8
+		}
+		upkeep = {
+			energy = @upkeep_energy_m8
+			alloys = @upkeep_alloys_m8
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_m8
+		ship_shield_regen_add_static = @regen_m8
+	}
+	prerequisites = { "usem_tech_shields_8" }
+	component_set = "USEM_SHIELD_8"
+	upgrades_to = "USEM_MEDIUM_SHIELD_9"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_LARGE_SHIELD_8"
+	size = large
+	icon = "GFX_usem_ship_part_shield_8"
+	icon_frame = 1
+	power = @power_l8
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l8
+			exotic_gases = @cost_gas_l8
+		}
+		upkeep = {
+			energy = @upkeep_energy_l8
+			alloys = @upkeep_alloys_l8
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_l8
+		ship_shield_regen_add_static = @regen_l8
+	}
+	prerequisites = { "usem_tech_shields_8" }
+	component_set = "USEM_SHIELD_8"
+	upgrades_to = "USEM_LARGE_SHIELD_9"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+# Advanced Photonic Shields IX
+utility_component_template = {
+
+	key = "USEM_SMALL_SHIELD_9"
+	size = small
+	icon = "GFX_usem_ship_part_shield_9"
+	icon_frame = 1
+	power = @power_s9
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s9
+			exotic_gases = @cost_gas_s9
+		}
+		upkeep = {
+			energy = @upkeep_energy_s9
+			alloys = @upkeep_alloys_s9
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_s9
+		ship_shield_regen_add_static = @regen_s9
+	}
+	prerequisites = { "usem_tech_shields_9" }
+	component_set = "USEM_SHIELD_9"
+	upgrades_to = "USEM_SMALL_SHIELD_10"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_MEDIUM_SHIELD_9"
+	size = medium
+	icon = "GFX_usem_ship_part_shield_9"
+	icon_frame = 1
+	power = @power_m9
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m9
+			exotic_gases = @cost_gas_m9
+		}
+		upkeep = {
+			energy = @upkeep_energy_m9
+			alloys = @upkeep_alloys_m9
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_m9
+		ship_shield_regen_add_static = @regen_m9
+	}
+	prerequisites = { "usem_tech_shields_9" }
+	component_set = "USEM_SHIELD_9"
+	upgrades_to = "USEM_MEDIUM_SHIELD_10"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_LARGE_SHIELD_9"
+	size = large
+	icon = "GFX_usem_ship_part_shield_9"
+	icon_frame = 1
+	power = @power_l9
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l9
+			exotic_gases = @cost_gas_l9
+		}
+		upkeep = {
+			energy = @upkeep_energy_l9
+			alloys = @upkeep_alloys_l9
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_l9
+		ship_shield_regen_add_static = @regen_l9
+	}
+	prerequisites = { "usem_tech_shields_9" }
+	component_set = "USEM_SHIELD_9"
+	upgrades_to = "USEM_LARGE_SHIELD_10"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+# Ultimate Photonic Shields X
+utility_component_template = {
+
+	key = "USEM_SMALL_SHIELD_10"
+	size = small
+	icon = "GFX_usem_ship_part_shield_10"
+	icon_frame = 1
+	power = @power_s10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s10
+			exotic_gases = @cost_gas_s10
+		}
+		upkeep = {
+			energy = @upkeep_energy_s10
+			alloys = @upkeep_alloys_s10
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_s10
+		ship_shield_regen_add_static = @regen_s10
+	}
+	prerequisites = { "usem_tech_shields_10" }
+	component_set = "USEM_SHIELD_10"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_MEDIUM_SHIELD_10"
+	size = medium
+	icon = "GFX_usem_ship_part_shield_10"
+	icon_frame = 1
+	power = @power_m10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m10
+			exotic_gases = @cost_gas_m10
+		}
+		upkeep = {
+			energy = @upkeep_energy_m10
+			alloys = @upkeep_alloys_m10
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_m10
+		ship_shield_regen_add_static = @regen_m10
+	}
+	prerequisites = { "usem_tech_shields_10" }
+	component_set = "USEM_SHIELD_10"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+
+	key = "USEM_LARGE_SHIELD_10"
+	size = large
+	icon = "GFX_usem_ship_part_shield_10"
+	icon_frame = 1
+	power = @power_l10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l10
+			exotic_gases = @cost_gas_l10
+		}
+		upkeep = {
+			energy = @upkeep_energy_l10
+			alloys = @upkeep_alloys_l10
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_l10
+		ship_shield_regen_add_static = @regen_l10
+	}
+	prerequisites = { "usem_tech_shields_10" }
+	component_set = "USEM_SHIELD_10"
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+}

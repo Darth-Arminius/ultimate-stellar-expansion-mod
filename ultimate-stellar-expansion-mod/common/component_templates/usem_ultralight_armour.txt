@@ -1,0 +1,486 @@
+#############
+#	COST	#
+#############
+
+# Alloys
+@cost_alloys_s6 = 28
+@cost_alloys_m6 = 56
+@cost_alloys_l6 = 112
+           
+@cost_alloys_s7 = 35
+@cost_alloys_m7 = 70
+@cost_alloys_l7 = 140
+
+@cost_alloys_s8 = 43
+@cost_alloys_m8 = 86
+@cost_alloys_l8 = 172
+           
+@cost_alloys_s9 = 52
+@cost_alloys_m9 = 104
+@cost_alloys_l9 = 208
+           
+@cost_alloys_s10 = 62
+@cost_alloys_m10 = 124
+@cost_alloys_l10 = 248
+
+#############
+#	UPKEEP	#
+#############
+
+# Energy
+@upkeep_energy_s6 = 0.28
+@upkeep_energy_m6 = 0.56
+@upkeep_energy_l6 = 1.12
+
+@upkeep_energy_s7 = 0.35
+@upkeep_energy_m7 = 0.70
+@upkeep_energy_l7 = 1.40
+
+@upkeep_energy_s8 = 0.43
+@upkeep_energy_m8 = 0.86
+@upkeep_energy_l8 = 1.72
+
+@upkeep_energy_s9 = 0.52
+@upkeep_energy_m9 = 1.04
+@upkeep_energy_l9 = 2.08
+
+@upkeep_energy_s10 = 0.62
+@upkeep_energy_m10 = 1.24
+@upkeep_energy_l10 = 2.48
+
+# Alloys
+@upkeep_alloys_s6 = 0.056
+@upkeep_alloys_m6 = 0.112
+@upkeep_alloys_l6 = 0.224
+
+@upkeep_alloys_s7 = 0.070
+@upkeep_alloys_m7 = 0.140
+@upkeep_alloys_l7 = 0.280
+
+@upkeep_alloys_s8 = 0.086
+@upkeep_alloys_m8 = 0.172
+@upkeep_alloys_l8 = 0.344
+
+@upkeep_alloys_s9 = 0.104
+@upkeep_alloys_m9 = 0.208
+@upkeep_alloys_l9 = 0.416
+
+@upkeep_alloys_s10 = 0.124
+@upkeep_alloys_m10 = 0.248
+@upkeep_alloys_l10 = 0.496
+
+#############
+#	ARMOR	#
+#############
+
+@armor_s6 = 175
+@armor_m6 = 500
+@armor_l6 = 1060
+
+@armor_s7 = 215
+@armor_m7 = 635
+@armor_l7 = 1300
+
+@armor_s8 = 260
+@armor_m8 = 790
+@armor_l8 = 1570
+
+@armor_s9 = 310
+@armor_m9 = 965
+@armor_l9 = 1870
+
+@armor_s10 = 365
+@armor_m10 = 1160
+@armor_l10 = 2200
+
+# Ultra-light Nanocomposite Armor VI
+utility_component_template = {
+	key = "USEM_SMALL_ARMOR_6"
+	size = small
+	icon = "GFX_usem_ship_part_armor_6"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s6
+			alloys = @upkeep_alloys_s6
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_s6
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_6" }
+	component_set = "USEM_ARMOR_6"
+	upgrades_to = "USEM_SMALL_ARMOR_7"
+}
+
+utility_component_template = {
+	key = "USEM_MEDIUM_ARMOR_6"
+	size = medium
+	icon = "GFX_usem_ship_part_armor_6"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m6
+			alloys = @upkeep_alloys_m6
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_m6
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_6" }
+	component_set = "USEM_ARMOR_6"
+	upgrades_to = "USEM_MEDIUM_ARMOR_7"
+}
+
+utility_component_template = {
+	key = "USEM_LARGE_ARMOR_6"
+	size = large
+	icon = "GFX_usem_ship_part_armor_6"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l6
+			alloys = @upkeep_alloys_l6
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_l6
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_6" }
+	component_set = "USEM_ARMOR_6"
+	upgrades_to = "USEM_LARGE_ARMOR_7"
+}
+
+# Ultra-light Ceramo-Metal Armor VII
+utility_component_template = {
+	key = "USEM_SMALL_ARMOR_7"
+	size = small
+	icon = "GFX_usem_ship_part_armor_7"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s7
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s7
+			alloys = @upkeep_alloys_s7
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_s7
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_7" }
+	component_set = "USEM_ARMOR_7"
+	upgrades_to = "USEM_SMALL_ARMOR_8"
+}
+
+utility_component_template = {
+	key = "USEM_MEDIUM_ARMOR_7"
+	size = medium
+	icon = "GFX_usem_ship_part_armor_7"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m7
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m7
+			alloys = @upkeep_alloys_m7
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_m7
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_7" }
+	component_set = "USEM_ARMOR_7"
+	upgrades_to = "USEM_MEDIUM_ARMOR_8"
+}
+
+utility_component_template = {
+	key = "USEM_LARGE_ARMOR_7"
+	size = large
+	icon = "GFX_usem_ship_part_armor_7"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l7
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l7
+			alloys = @upkeep_alloys_l7
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_l7
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_7" }
+	component_set = "USEM_ARMOR_7"
+	upgrades_to = "USEM_LARGE_ARMOR_8"
+}
+
+# Ultra-light Plasteel Armor VIII
+utility_component_template = {
+	key = "USEM_SMALL_ARMOR_8"
+	size = small
+	icon = "GFX_usem_ship_part_armor_8"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s8
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s8
+			alloys = @upkeep_alloys_s8
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_s8
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_8" }
+	component_set = "USEM_ARMOR_8"
+	upgrades_to = "USEM_SMALL_ARMOR_9"
+}
+
+utility_component_template = {
+	key = "USEM_MEDIUM_ARMOR_8"
+	size = medium
+	icon = "GFX_usem_ship_part_armor_8"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m8
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m8
+			alloys = @upkeep_alloys_m8
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_m8
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_8" }
+	component_set = "USEM_ARMOR_8"
+	upgrades_to = "USEM_MEDIUM_ARMOR_9"
+}
+
+utility_component_template = {
+	key = "USEM_LARGE_ARMOR_8"
+	size = large
+	icon = "GFX_usem_ship_part_armor_8"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l8
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l8
+			alloys = @upkeep_alloys_l8
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_l8
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_8" }
+	component_set = "USEM_ARMOR_8"
+	upgrades_to = "USEM_LARGE_ARMOR_9"
+}
+
+# Ultra-light Durasteel Armor IX
+utility_component_template = {
+	key = "USEM_SMALL_ARMOR_9"
+	size = small
+	icon = "GFX_usem_ship_part_armor_9"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s9
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s9
+			alloys = @upkeep_alloys_s9
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_s9
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_9" }
+	component_set = "USEM_ARMOR_9"
+	upgrades_to = "USEM_SMALL_ARMOR_10"
+}
+
+utility_component_template = {
+	key = "USEM_MEDIUM_ARMOR_9"
+	size = medium
+	icon = "GFX_usem_ship_part_armor_9"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m9
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m9
+			alloys = @upkeep_alloys_m9
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_m9
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_9" }
+	component_set = "USEM_ARMOR_9"
+	upgrades_to = "USEM_MEDIUM_ARMOR_10"
+}
+
+utility_component_template = {
+	key = "USEM_LARGE_ARMOR_9"
+	size = large
+	icon = "GFX_usem_ship_part_armor_9"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l9
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l9
+			alloys = @upkeep_alloys_l9
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_l9
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_9" }
+	component_set = "USEM_ARMOR_9"
+	upgrades_to = "USEM_LARGE_ARMOR_10"
+}
+
+# Ultra-light Neutronium Armor X
+utility_component_template = {
+	key = "USEM_SMALL_ARMOR_10"
+	size = small
+	icon = "GFX_usem_ship_part_armor_10"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s10
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s10
+			alloys = @upkeep_alloys_s10
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_s10
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_10" }
+	component_set = "USEM_ARMOR_10"
+}
+
+utility_component_template = {
+	key = "USEM_MEDIUM_ARMOR_10"
+	size = medium
+	icon = "GFX_usem_ship_part_armor_10"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m10
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m10
+			alloys = @upkeep_alloys_m10
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_m10
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_10" }
+	component_set = "USEM_ARMOR_10"
+}
+
+utility_component_template = {
+	key = "USEM_LARGE_ARMOR_10"
+	size = large
+	icon = "GFX_usem_ship_part_armor_10"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l10
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l10
+			alloys = @upkeep_alloys_l10
+		}
+	}
+	
+	modifier = {
+		ship_armor_add = @armor_l10
+	}
+	
+	prerequisites = { "usem_tech_ship_armor_10" }
+	component_set = "USEM_ARMOR_10"
+}
