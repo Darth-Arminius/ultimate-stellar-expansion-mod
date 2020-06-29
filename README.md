@@ -108,6 +108,15 @@ The mod overwrites some vanilla files to ensure compatibility and a smooth trans
 
 ---
 
+## Localisation
+
+The mod currently has localisation support for the following languages
+ - English
+
+### [WIP]
+
+---
+
 ## Mod authors
 
 [Darth-Arminius](https://github.com/Darth-Arminius)
