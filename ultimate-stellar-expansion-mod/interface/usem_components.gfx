@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_usem_ship_part_armor_6"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_armor_6.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_armor_7"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_armor_7.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_armor_8"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_armor_8.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_armor_9"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_armor_9.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_armor_10"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_armor_10.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_shield_6"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_shield_6.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_shield_7"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_shield_7.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_shield_8"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_shield_8.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_shield_9"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_shield_9.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_shield_10"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_shield_10.dds"
+	}
+}
