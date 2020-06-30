@@ -627,6 +627,7 @@ utility_component_template = {
 	}
 	prerequisites = { "usem_tech_shields_10" }
 	component_set = "USEM_SHIELD_10"
+	upgrades_to = "SMALL_DARK_MATTER_DEFLECTOR"
 
 	ai_weight = {
 		weight = 5
@@ -662,6 +663,7 @@ utility_component_template = {
 	}
 	prerequisites = { "usem_tech_shields_10" }
 	component_set = "USEM_SHIELD_10"
+	upgrades_to = "MEDIUM_DARK_MATTER_DEFLECTOR"
 
 	ai_weight = {
 		weight = 5
@@ -697,6 +699,7 @@ utility_component_template = {
 	}
 	prerequisites = { "usem_tech_shields_10" }
 	component_set = "USEM_SHIELD_10"
+	upgrades_to = "LARGE_DARK_MATTER_DEFLECTOR"
 
 	ai_weight = {
 		weight = 5

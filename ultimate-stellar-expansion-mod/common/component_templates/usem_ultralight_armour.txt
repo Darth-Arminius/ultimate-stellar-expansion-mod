@@ -433,6 +433,7 @@ utility_component_template = {
 	
 	prerequisites = { "usem_tech_ship_armor_10" }
 	component_set = "USEM_ARMOR_10"
+	upgrades_to = "SMALL_DRAGON_ARMOR"
 }
 
 utility_component_template = {
@@ -458,6 +459,7 @@ utility_component_template = {
 	
 	prerequisites = { "usem_tech_ship_armor_10" }
 	component_set = "USEM_ARMOR_10"
+	upgrades_to = "MEDIUM_DRAGON_ARMOR"
 }
 
 utility_component_template = {
@@ -483,4 +485,5 @@ utility_component_template = {
 	
 	prerequisites = { "usem_tech_ship_armor_10" }
 	component_set = "USEM_ARMOR_10"
+	upgrades_to = "LARGE_DRAGON_ARMOR"
 }

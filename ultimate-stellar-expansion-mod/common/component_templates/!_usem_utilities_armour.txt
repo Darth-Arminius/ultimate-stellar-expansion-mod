@@ -73,3 +73,96 @@ utility_component_template = {
 	}
 	upgrades_to = "USEM_LARGE_ARMOR_6"
 }
+
+########################
+# Dragon Armor
+########################
+
+@cost_alloys_s11 = 28
+@cost_alloys_m11 = 56
+@cost_alloys_l11 = 112
+
+@upkeep_energy_s11 = 0.28
+@upkeep_energy_m11 = 0.56
+@upkeep_energy_l11 = 1.12
+
+@upkeep_alloys_s11 = 0.056
+@upkeep_alloys_m11 = 0.112
+@upkeep_alloys_l11 = 0.224
+
+@armor_s11 = 800
+@armor_m11 = 2000
+@armor_l11 = 4800
+
+# Dragonscale Armor
+utility_component_template = {
+	key = "SMALL_DRAGON_ARMOR"
+	size = small
+	icon = "GFX_ship_part_dragon_armor"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_s11
+	}
+	
+	prerequisites = { "tech_dragon_armor" }
+	component_set = "DRAGON_ARMOR"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s11
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s11
+			alloys = @upkeep_alloys_s11
+		}
+	}
+}
+
+utility_component_template = {
+	key = "MEDIUM_DRAGON_ARMOR"
+	size = medium
+	icon = "GFX_ship_part_dragon_armor"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_m11
+	}
+	
+	prerequisites = { "tech_dragon_armor" }
+	component_set = "DRAGON_ARMOR"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m11
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m11
+			alloys = @upkeep_alloys_m11
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_DRAGON_ARMOR"
+	size = large
+	icon = "GFX_ship_part_dragon_armor"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_l11
+	}
+	
+	prerequisites = { "tech_dragon_armor" }
+	component_set = "DRAGON_ARMOR"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l11
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l11
+			alloys = @upkeep_alloys_l11
+		}
+	}
+}
