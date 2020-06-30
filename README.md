@@ -90,7 +90,10 @@ New ship components unlocked via the new technologies.
 
 ## New icons
 
-New icons have been created for all the mod additions.
+  - Shields
+    - `Tier VI -> Tier X`
+  - Armour
+    - `Tier VI -> Tier X` 
 
 ### [WIP]
 
@@ -103,6 +106,17 @@ The mod overwrites some vanilla files to ensure compatibility and a smooth trans
 ### Ship components
  - `Tier V Shield` (vanilla) -- now upgrades to `Tier VI Shield` (usem) for all sizes
  - `Tier V Armour` (vanilla) -- now upgrades to `Tier VI Armour` (usem) for all sizes
+ - `Dragon Armour` (vanilla) -- now classed as `Tier XI Armour` (usem) with stats updated to match
+ - `Dark Matter Deflectors` (vanilla) -- now classed as `Tier XI Shield` (usem) with stats updated to match
+ - `Psionic Shields` (vanilla) -- now classed as `Tier XI Shield` (usem) with stats updated to match
+ - `Psionic Barrier` (vanilla) -- now unavailable/hidden component (usem)
+
+### Technologies
+ - `Psionic Barrier` (vanilla) -- now unavailable/hidden technology (usem)
+
+### Icons
+ - `Dragon Armour Component` (vanilla) -- now using custom icon without tier number (usem)
+ - `Dragon Armour Technology` (vanilla) -- now using custom icon without tier number (usem)
 
 ### [WIP]
 
