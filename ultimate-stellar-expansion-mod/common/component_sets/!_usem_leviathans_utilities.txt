@@ -1,0 +1,6 @@
+component_set = {
+	key = "DRAGON_ARMOR"
+	
+	icon = "GFX_usem_ship_part_dragon_armor"
+	icon_frame = 1
+}

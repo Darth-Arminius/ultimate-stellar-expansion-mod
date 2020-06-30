@@ -338,3 +338,87 @@ utility_component_template = {
 		}
 	}
 }
+
+utility_component_template = { #Low power requirements, lower str. Maybe good regen.
+	key = "SMALL_PSI_BARRIER"
+	size = small
+	icon = "GFX_ship_part_psi_shield"
+	icon_frame = 1
+	power = 0
+	hidden = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_s_t2_cost
+		}
+		upkeep = {
+			alloys = @shield_s_t2_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_S2
+		ship_shield_regen_add_static = @regen_S5 #Regeneration per day
+	}
+	prerequisites = { "tech_psionic_barrier" }
+	component_set = "PSI_BARRIER"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = { #Low power requirements, lower str. Maybe good regen.
+	key = "MEDIUM_PSI_BARRIER"
+	size = medium
+	icon = "GFX_ship_part_psi_shield"
+	icon_frame = 1
+	power = 0
+	hidden = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_m_t2_cost
+		}
+		upkeep = {
+			alloys = @shield_m_t2_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_M2
+		ship_shield_regen_add_static = @regen_M5 #Regeneration per day
+	}
+	prerequisites = { "tech_psionic_barrier" }
+	component_set = "PSI_BARRIER"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = { #Low power requirements, lower str. Maybe good regen.
+	key = "LARGE_PSI_BARRIER"
+	size = large
+	icon = "GFX_ship_part_psi_shield"
+	icon_frame = 1
+	power = 0
+	hidden = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_l_t2_cost
+		}
+		upkeep = {
+			alloys = @shield_l_t2_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_L2
+		ship_shield_regen_add_static = @regen_L5 #Regeneration per day
+	}
+	prerequisites = { "tech_psionic_barrier" }
+	component_set = "PSI_BARRIER"
+
+	ai_weight = {
+		weight = 1
+	}
+}

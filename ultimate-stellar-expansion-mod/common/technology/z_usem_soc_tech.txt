@@ -1,0 +1,27 @@
+tech_psionic_barrier = {
+	area = society
+	cost = @tier3cost1
+	tier = 3
+	category = { psionics }
+	ai_update_type = all
+	is_rare = yes
+	prerequisites = { "tech_psionic_theory" }
+	weight = 0
+	is_reverse_engineerable = no
+	icon = tech_psionic_barrier
+
+	# This is a work around to make this tech unavailable
+	# Not even console commands will give you this tech
+	# The prerequisite to this tech is tech_psionic_theory
+	# That tech can only be researched if NOT {has_ethic = ethic_gestalt_consciousness}
+	# Making this tech researchable only if has_ethic = ethic_gestalt_consciousness
+	# Makes the two techs incompatible, yet reliant
+	# Making it unavailable
+    potential = {
+		has_ethic = ethic_gestalt_consciousness
+	}
+
+	weight_modifier = {
+		factor = 0
+	}
+}

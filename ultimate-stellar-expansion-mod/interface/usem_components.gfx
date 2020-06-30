@@ -39,4 +39,8 @@ spriteTypes = {
 		name = "GFX_usem_ship_part_shield_10"
 		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_shield_10.dds"
 	}
+	spriteType = {
+		name = "GFX_usem_ship_part_dragon_armor"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_dragon_armor.dds"
+	}
 }
