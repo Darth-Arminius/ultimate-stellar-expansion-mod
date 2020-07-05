@@ -32,6 +32,13 @@ The mod adds many new technologies to be researched or discovered via insight.
  - `Tier IX` -- Advanced Photonic Shields
  - `Tier X` -- Ultimate Photonic Shields `(rare)`
 
+### Reactors
+  - `Tier VI` -- Class 1 Singularity
+  - `Tier VII` -- Class 2 Singularity
+  - `Tier VIII` -- Class 3 Singularity
+  - `Tier IX` -- Class 4 Singularity
+  - `Tier X` -- Dark Energy Power `(rare)`
+
 ### [WIP]
 
 ---
@@ -84,6 +91,48 @@ New ship components unlocked via the new technologies.
    - `Medium` -- Medium Ultimate Photonic Shields
    - `Large` -- Large Ultimate Photonic Shields
 
+### Reactors
+  -`Tier VI`
+    -`Corvette` -- Class 1 Singularity Reactor
+    -`Destroyer` -- Class 1 Singularity Reactor
+    -`Cruiser` -- Class 1 Singularity Reactor
+    -`Battleship` -- Class 1 Singularity Reactor
+    -`Titan` -- Class 1 Singularity Reactor
+    -`Starbase` -- Class 1 Singularity Reactor
+    -`Platform` -- Class 1 Singularity Reactor
+  -`Tier VII`
+    -`Corvette` -- Class 2 Singularity Reactor
+    -`Destroyer` -- Class 2 Singularity Reactor
+    -`Cruiser` -- Class 2 Singularity Reactor
+    -`Battleship` -- Class 2 Singularity Reactor
+    -`Titan` -- Class 2 Singularity Reactor
+    -`Starbase` -- Class 2 Singularity Reactor
+    -`Platform` -- Class 2 Singularity Reactor
+  -`Tier VIII`
+    -`Corvette` -- Class 3 Singularity Reactor
+    -`Destroyer` -- Class 3 Singularity Reactor
+    -`Cruiser` -- Class 3 Singularity Reactor
+    -`Battleship` -- Class 3 Singularity Reactor
+    -`Titan` -- Class 3 Singularity Reactor
+    -`Starbase` -- Class 3 Singularity Reactor
+    -`Platform` -- Class 3 Singularity Reactor
+  -`Tier IX`
+    -`Corvette` -- Class 4 Singularity Reactor
+    -`Destroyer` -- Class 4 Singularity Reactor
+    -`Cruiser` -- Class 4 Singularity Reactor
+    -`Battleship` -- Class 4 Singularity Reactor
+    -`Titan` -- Class 4 Singularity Reactor
+    -`Starbase` -- Class 4 Singularity Reactor
+    -`Platform` -- Class 4 Singularity Reactor
+  -`Tier X`
+    -`Corvette` -- Dark Energy Reactor
+    -`Destroyer` -- Dark Energy Reactor
+    -`Cruiser` -- Dark Energy Reactor
+    -`Battleship` -- Dark Energy Reactor
+    -`Titan` -- Dark Energy Reactor
+    -`Starbase` -- Dark Energy Reactor
+    -`Platform` -- Dark Energy Reactor
+
 ### [WIP]
 
 ---
@@ -93,7 +142,9 @@ New ship components unlocked via the new technologies.
   - Shields
     - `Tier VI -> Tier X`
   - Armour
-    - `Tier VI -> Tier X` 
+    - `Tier VI -> Tier X`
+  - Reactors
+    - `Tier VI -> Tier X`
 
 ### [WIP]
 
@@ -109,7 +160,9 @@ The mod overwrites some vanilla files to ensure compatibility and a smooth trans
  - `Dragon Armour` (vanilla) -- now classed as `Tier XI Armour` (usem) with stats updated to match
  - `Dark Matter Deflectors` (vanilla) -- now classed as `Tier XI Shield` (usem) with stats updated to match
  - `Psionic Shields` (vanilla) -- now classed as `Tier XI Shield` (usem) with stats updated to match
- - `Psionic Barrier` (vanilla) -- now unavailable/hidden component (usem)
+ - `Psionic Barrier` (vanilla) -- now unavailable/hidden component (usem) due to obsoletion
+ - `Tier V Reactor` (vanilla) -- now upgrades to `Tier VI Reactor` (usem) for all ship types
+ - `Dark Matter Reactor` (vanilla) -- now classed as `Tier XI Reactor` (usem) with stats updated to match
 
 ### Technologies
  - `Psionic Barrier` (vanilla) -- now unavailable/hidden technology (usem)
