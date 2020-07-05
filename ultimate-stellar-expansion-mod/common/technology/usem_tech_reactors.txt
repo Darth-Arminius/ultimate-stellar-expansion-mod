@@ -10,6 +10,14 @@ usem_tech_reactor_6 = {
 	
     gateway = power_generation
 
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_UNLOCK_USEM_REACTOR_6_TITLE"
+			desc = "TECH_UNLOCK_USEM_REACTOR_6_DESC"
+		}
+	}
+
 	weight_modifier = {
 		factor = 1.25
 		modifier = {
@@ -44,6 +52,14 @@ usem_tech_reactor_7 = {
 	weight = @tier5weight1
 	
     gateway = power_generation
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_UNLOCK_USEM_REACTOR_7_TITLE"
+			desc = "TECH_UNLOCK_USEM_REACTOR_7_DESC"
+		}
+	}
 
 	weight_modifier = {
 		factor = 1.25
@@ -80,6 +96,14 @@ usem_tech_reactor_8 = {
 	
     gateway = power_generation
 
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_UNLOCK_USEM_REACTOR_8_TITLE"
+			desc = "TECH_UNLOCK_USEM_REACTOR_8_DESC"
+		}
+	}
+
 	weight_modifier = {
 		factor = 1.25
 		modifier = {
@@ -114,6 +138,14 @@ usem_tech_reactor_9 = {
 	weight = @tier5weight3
 	
     gateway = power_generation
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_UNLOCK_USEM_REACTOR_9_TITLE"
+			desc = "TECH_UNLOCK_USEM_REACTOR_9_DESC"
+		}
+	}
 
 	weight_modifier = {
 		factor = 1.25
@@ -150,6 +182,14 @@ usem_tech_reactor_10 = {
 	weight = @tier5weight3
 	
     gateway = power_generation
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_UNLOCK_USEM_REACTOR_10_TITLE"
+			desc = "TECH_UNLOCK_USEM_REACTOR_10_DESC"
+		}
+	}
 
 	weight_modifier = {
 		factor = 1.25

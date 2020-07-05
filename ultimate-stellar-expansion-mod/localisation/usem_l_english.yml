@@ -138,6 +138,10 @@
  usem_tech_reactor_6_desc: "Although still early days, our scientists have managed create, and more importantly contain, a tiny black hole singularity that draws from surrounding dark energy and can be used as a new, infinite source of power.\n\n"
 
  USEM_REACTOR_6: "Class 1 Singularity Reactor"
+ USEM_REACTOR_6_DESC: "Generating vast amounts of instant energy via a singularity."
+
+ TECH_UNLOCK_USEM_REACTOR_6_TITLE: "§HUnlocks Component:§! $USEM_REACTOR_6$"
+ TECH_UNLOCK_USEM_REACTOR_6_DESC: "§H$USEM_REACTOR_6$§!\n$USEM_REACTOR_6_DESC$"
 
  CORVETTE_USEM_REACTOR_6: "$USEM_REACTOR_6$"
  DESTROYER_USEM_REACTOR_6: "$USEM_REACTOR_6$"
@@ -153,6 +157,10 @@
  usem_tech_reactor_7_desc: "Progress in singularity research has resulted in the technology required to both create and contain an even denser Class 2 black hole singularity, capable of generating far greater amounts of instant power than the Class 1 before it.\n\n"
 
  USEM_REACTOR_7: "Class 2 Singularity Reactor"
+ USEM_REACTOR_7_DESC: "Generating vast amounts of instant energy via a singularity."
+
+ TECH_UNLOCK_USEM_REACTOR_7_TITLE: "§HUnlocks Component:§! $USEM_REACTOR_7$"
+ TECH_UNLOCK_USEM_REACTOR_7_DESC: "§H$USEM_REACTOR_7$§!\n$USEM_REACTOR_7_DESC$"
 
  CORVETTE_USEM_REACTOR_7: "$USEM_REACTOR_7$"
  DESTROYER_USEM_REACTOR_7: "$USEM_REACTOR_7$"
@@ -168,6 +176,10 @@
  usem_tech_reactor_8_desc: "We reached the point of infinite clean energy a long time ago but the demand for massive amounts of instant power, and our scientists' desire to go further into singularity creation, has inevitably resulted in the Class 3 singularity, reaching the very limit of dark energy utilisation before expansion reversal occurs.\n\n"
 
  USEM_REACTOR_8: "Class 3 Singularity Reactor"
+ USEM_REACTOR_8_DESC: "Generating vast amounts of instant energy via a singularity."
+
+ TECH_UNLOCK_USEM_REACTOR_8_TITLE: "§HUnlocks Component:§! $USEM_REACTOR_8$"
+ TECH_UNLOCK_USEM_REACTOR_8_DESC: "§H$USEM_REACTOR_8$§!\n$USEM_REACTOR_8_DESC$"
 
  CORVETTE_USEM_REACTOR_8: "$USEM_REACTOR_8$"
  DESTROYER_USEM_REACTOR_8: "$USEM_REACTOR_8$"
@@ -183,6 +195,10 @@
  usem_tech_reactor_9_desc: "Rumours have circulated that even the great fallen empires of old used a technology similar to this to create and contain Class 4 singularities for power generation, regardless of the merit of these rumours our scientists have managed to create the first confirmed official Class 4 singularity, capable of generating massive power instantly and on demand. Discussions among the scientific community have gotten some members concerned at the implications, we're are generating more power than ever before but at what cost? Reports are already coonfirming that this singularity has breached the dark energy expansion point, albeit only just.\n\n"
 
  USEM_REACTOR_9: "Class 4 Singularity Reactor"
+ USEM_REACTOR_9_DESC: "Generating vast amounts of instant energy via a singularity."
+
+ TECH_UNLOCK_USEM_REACTOR_9_TITLE: "§HUnlocks Component:§! $USEM_REACTOR_9$"
+ TECH_UNLOCK_USEM_REACTOR_9_DESC: "§H$USEM_REACTOR_9$§!\n$USEM_REACTOR_9_DESC$"
 
  CORVETTE_USEM_REACTOR_9: "$USEM_REACTOR_9$"
  DESTROYER_USEM_REACTOR_9: "$USEM_REACTOR_9$"
@@ -198,6 +214,10 @@
  usem_tech_reactor_10_desc: "If the fear of going too far didn't grip the majority with the creation of the Class 4 singularity then it surely will now. Our scientists have managed to make possible the impossible and bypass the singularity all together, instead drawing upon the dark energy directly. This has allowed for generating more instant power than was ever possible while using singularities, but at what cost? It's clear that dark energy plays a vital role in the expansion and lifecycle of the unvierse, messing with that could cause serious irreversible consquences. It was already confirmed that dark energy expansion was being reversed local to the singularity but utilising dark energy directly has taken that to a dangerous new level, could we possibly reverse the universe, and everything in it, all the way back to it's inception?"
 
  USEM_REACTOR_10: "Dark Energy Reactor"
+ USEM_REACTOR_10_DESC: "Generating insane amounts of energy directly from dark energy."
+
+ TECH_UNLOCK_USEM_REACTOR_10_TITLE: "§HUnlocks Component:§! $USEM_REACTOR_10$"
+ TECH_UNLOCK_USEM_REACTOR_10_DESC: "§H$USEM_REACTOR_10$§!\n$USEM_REACTOR_10_DESC$"
 
  CORVETTE_USEM_REACTOR_10: "$USEM_REACTOR_10$"
  DESTROYER_USEM_REACTOR_10: "$USEM_REACTOR_10$"
