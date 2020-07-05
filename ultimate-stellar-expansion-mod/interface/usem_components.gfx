@@ -43,4 +43,24 @@ spriteTypes = {
 		name = "GFX_usem_ship_part_dragon_armor"
 		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_dragon_armor.dds"
 	}
+	spriteType = {
+		name = "GFX_usem_ship_part_reactor_6"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_reactor_6.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_reactor_7"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_reactor_7.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_reactor_8"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_reactor_8.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_reactor_9"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_reactor_9.dds"
+	}
+    spriteType = {
+		name = "GFX_usem_ship_part_reactor_10"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_reactor_10.dds"
+	}
 }

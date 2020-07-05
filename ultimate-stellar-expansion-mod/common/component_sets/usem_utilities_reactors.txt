@@ -1,0 +1,34 @@
+component_set = {
+	key = "USEM_REACTOR_6"
+	
+	icon = "GFX_usem_ship_part_reactor_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_REACTOR_7"
+	
+	icon = "GFX_usem_ship_part_reactor_7"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "USEM_REACTOR_8"
+	
+	icon = "GFX_usem_ship_part_reactor_8"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_REACTOR_9"
+	
+	icon = "GFX_usem_ship_part_reactor_9"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_REACTOR_10"
+	
+	icon = "GFX_usem_ship_part_reactor_10"
+	icon_frame = 1	
+}

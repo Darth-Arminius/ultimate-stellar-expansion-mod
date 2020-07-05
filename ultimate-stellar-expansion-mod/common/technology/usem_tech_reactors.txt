@@ -1,0 +1,175 @@
+# Class 1 Singularity Reactor VI
+usem_tech_reactor_6 = {
+	area = physics
+	cost = @tier4cost3
+	tier = 4
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "tech_zero_point_power" }
+	weight = @tier4weight3
+	
+    gateway = power_generation
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 #important component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+# Class 2 Singularity Reactor VII
+usem_tech_reactor_7 = {
+	area = physics
+	cost = @tier5cost1
+	tier = 4
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "usem_tech_reactor_6" }
+	weight = @tier5weight1
+	
+    gateway = power_generation
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 #important component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+# Class 3 Singularity Reactor VIII
+usem_tech_reactor_8 = {
+	area = physics
+	cost = @tier5cost2
+	tier = 4
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "usem_tech_reactor_7" }
+	weight = @tier5weight2
+	
+    gateway = power_generation
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 #important component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+# Class 4 Singularity Reactor IX
+usem_tech_reactor_9 = {
+	area = physics
+	cost = @tier5cost3
+	tier = 4
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "usem_tech_reactor_8" }
+	weight = @tier5weight3
+	
+    gateway = power_generation
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 #important component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+# Dark Energy Reactor X
+usem_tech_reactor_10 = {
+	area = physics
+	cost = @tier5cost3
+	tier = 4
+	category = { particles }
+	ai_update_type = all
+    is_rare = yes
+	prerequisites = { "usem_tech_reactor_10" }
+	weight = @tier5weight3
+	
+    gateway = power_generation
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 #important component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
