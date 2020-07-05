@@ -1,4 +1,4 @@
-# Ultimate Stellar Expansion Mod -- [Steam Workshop Link]()
+# Ultimate Stellar Expansion Mod (WIP)
 
 ## Mod description
 
@@ -9,10 +9,6 @@ The ultimate expansion mod for Stellaris, adding:
  - New traits
  - New events
  - And a lot more
-
-### [WIP]
-
----
 
 ## New technologies
 
@@ -38,10 +34,6 @@ The mod adds many new technologies to be researched or discovered via insight.
   - `Tier VIII` -- Class 3 Singularity
   - `Tier IX` -- Class 4 Singularity
   - `Tier X` -- Dark Energy Power `(rare)`
-
-### [WIP]
-
----
 
 ## New ship components
 
@@ -133,10 +125,6 @@ New ship components unlocked via the new technologies.
     - `Starbase` -- Dark Energy Reactor
     - `Platform` -- Dark Energy Reactor
 
-### [WIP]
-
----
-
 ## New icons
 
   - Shields
@@ -145,10 +133,6 @@ New ship components unlocked via the new technologies.
     - `Tier VI -> Tier X`
   - Reactors
     - `Tier VI -> Tier X`
-
-### [WIP]
-
----
 
 ## Overwrites
 
@@ -174,18 +158,10 @@ The mod overwrites some vanilla files to ensure compatibility and a smooth trans
  - `Tier I -> V Shield Technology` (vanilla) now using same icon with tier numbers (usem)
  - `Tier I -> V Armour Technology` (vanilla) now using same icon with slight size increase (usem)
 
-### [WIP]
-
----
-
 ## Localisation
 
 The mod currently has localisation support for the following languages
  - English
-
-### [WIP]
-
----
 
 ## Mod authors
 
