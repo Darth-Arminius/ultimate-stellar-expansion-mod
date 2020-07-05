@@ -168,8 +168,11 @@ The mod overwrites some vanilla files to ensure compatibility and a smooth trans
  - `Psionic Barrier` (vanilla) -- now unavailable/hidden technology (usem)
 
 ### Icons
- - `Dragon Armour Component` (vanilla) -- now using custom icon without tier number (usem)
- - `Dragon Armour Technology` (vanilla) -- now using custom icon without tier number (usem)
+ - `Dragon Armour Component` (vanilla) -- now using same icon without tier numbers (usem)
+ - `Dragon Armour Technology` (vanilla) -- now using same icon without tier numbers (usem)
+ - `Tier I -> V Reactor Technology` (vanilla) now using same icon with tier numbers (usem)
+ - `Tier I -> V Shield Technology` (vanilla) now using same icon with tier numbers (usem)
+ - `Tier I -> V Armour Technology` (vanilla) now using same icon with slight size increase (usem)
 
 ### [WIP]
 
