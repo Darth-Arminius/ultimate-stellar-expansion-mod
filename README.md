@@ -35,6 +35,9 @@ The mod adds many new technologies to be researched or discovered via insight.
   - `Tier IX` -- Class 4 Singularity
   - `Tier X` -- Dark Energy Power `(rare)`
 
+### Lasers
+  - `Tier VI` -- Specialised Lasers `(rare)`
+
 ## New ship components
 
 New ship components unlocked via the new technologies.
@@ -125,6 +128,17 @@ New ship components unlocked via the new technologies.
     - `Starbase` -- Dark Energy Reactor
     - `Platform` -- Dark Energy Reactor
 
+### Lasers
+  - `Tier VI`
+    - `Medium`
+      - Standard Specialised Laser
+      - Anti-armour Specialised Laser
+      - Anti-hull Specialised Laser
+    - `Large`
+      - Standard Specialised Laser
+      - Anti-armour Specialised Laser
+      - Anti-hull Specialised Laser
+
 ## New icons
 
   - Shields
@@ -133,6 +147,11 @@ New ship components unlocked via the new technologies.
     - `Tier VI -> Tier X`
   - Reactors
     - `Tier VI -> Tier X`
+  - Lasers
+    - `Tier VI`
+      - Standard Specialised Laser
+      - Anti-armour Specialised Laser
+      - Anti-hull Specialised Laser
 
 ## Overwrites
 
