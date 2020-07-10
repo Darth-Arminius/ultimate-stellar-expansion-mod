@@ -1,0 +1,20 @@
+component_set = {
+	key = "USEM_LASER_6"
+	
+	icon = "GFX_usem_ship_part_laser_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_LASER_AA_6"
+	
+	icon = "GFX_usem_ship_part_laser_AA_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_LASER_AH_6"
+	
+	icon = "GFX_usem_ship_part_laser_AH_6"
+	icon_frame = 1	
+}
