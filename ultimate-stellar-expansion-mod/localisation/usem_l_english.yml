@@ -226,3 +226,27 @@
  TITAN_USEM_REACTOR_10: "$USEM_REACTOR_10$"
  PLATFORM_USEM_REACTOR_10: "$USEM_REACTOR_10$"
  STARBASE_USEM_REACTOR_10: "$USEM_REACTOR_10$"
+
+ ##########
+ # Lasers #
+ ##########
+
+ # Specialised Lasers VI
+
+ usem_tech_lasers_6: "Specialised Lasers"
+ usem_tech_lasers_6_desc: "Specialised lasers allow us to achieve a laser's maximum potential, so long as the circumstances are right. Lasers are especially good at melting armour and, to a lesser extent, hull but suffer greatly against shields."
+
+ USEM_LASER_6: "Standard Specialised Laser"
+ USEM_LASER_6_DESC: "The standard variation of the specialised lasers, similar but more advanced than the standard lasers that came before it."
+ USEM_MEDIUM_LASER_6: "Medium Standard Specialised Laser"
+ USEM_LARGE_LASER_6: "Large Standard Specialised Laser"
+
+ USEM_LASER_AA_6: "Anti-armour Specialised Laser"
+ USEM_LASER_AA_6_DESC: "This laser is specialised for anti-armour but suffers greatly against shields and hull."
+ USEM_MEDIUM_LASER_AA_6: "Medium Anti-armour Specialised Laser"
+ USEM_LARGE_LASER_AA_6: "Large Anti-armour Specialised Laser"
+
+ USEM_LASER_AH_6: "Anti-hull Specialised Laser"
+ USEM_LASER_AH_6_DESC: "This laser is specialised for anti-hull but suffers greatly against shields and armour."
+ USEM_MEDIUM_LASER_AH_6: "Medium Anti-hull Specialised Laser"
+ USEM_LARGE_LASER_AH_6: "Large Anti-hull Specialised Laser"
