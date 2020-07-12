@@ -75,4 +75,8 @@ spriteTypes = {
 		name = "GFX_usem_ship_part_laser_AH_6"
 		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_laser_AH_6.dds"
 	}
+	spriteType = {
+		name = "GFX_usem_ship_part_laser_P_6"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_laser_P_6.dds"
+	}
 }

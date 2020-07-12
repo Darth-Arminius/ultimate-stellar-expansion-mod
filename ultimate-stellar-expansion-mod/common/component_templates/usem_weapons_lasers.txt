@@ -68,7 +68,7 @@ weapon_component_template = {
 
 	damage = { min = 50 max = 125 }
     shield_damage = 0.25
-	armor_damage = 3.00
+	armor_damage = 2.00
 	range = 50.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -113,9 +113,9 @@ weapon_component_template = {
 
     prerequisites = { "usem_tech_lasers_6" }
 
-	damage = { min = 125 max = 275 }
+	damage = { min = 125 max = 300 }
     shield_damage = 0.25
-	armor_damage = 3.00
+	armor_damage = 2.00
 	range = 100.0
 	accuracy = 0.90
 	tracking = 0.05
@@ -311,6 +311,55 @@ weapon_component_template = {
 	armor_damage = 0.01
 	hull_damage = 4.00
 	range = 100.0
+	accuracy = 0.90
+	tracking = 0.05
+
+	windup = { min = 2 max = 20 }
+	total_fire_time = 35
+}
+
+# Precision Specialised Laser
+
+weapon_component_template = {
+	key = "USEM_LARGE_LASER_P_6"
+    icon = "GFX_usem_ship_part_laser_P_6"
+	icon_frame = 1
+    component_set = "USEM_LASER_P_6"
+    
+	size = large
+	type = instant
+	tags = { weapon_type_energy }
+    projectile_gfx = "infrared_laser_l"
+
+    ai_tags = { weapon_role_anti_armor }
+    ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+
+	power = @power_l6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l6
+			rare_crystals = @cost_crystals_l6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l6
+			alloys = @upkeep_alloys_l6
+		}
+	}
+
+    prerequisites = { "usem_tech_lasers_6" }
+
+	damage = { min = 100 max = 200 }
+    shield_damage = 0.25
+	armor_damage = 2.00
+	range = 200.0
 	accuracy = 0.90
 	tracking = 0.05
 
