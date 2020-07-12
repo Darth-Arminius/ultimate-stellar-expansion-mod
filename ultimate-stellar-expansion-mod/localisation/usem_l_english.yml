@@ -254,3 +254,28 @@
  USEM_LASER_P_6: "Precision Specialised Laser"
  USEM_LASER_P_6_DESC: "This laser is specialised for long range but suffers lower overall damage to the standard specialised laser."
  USEM_LARGE_LASER_P_6: "Large Precision Specialised Laser"
+
+ ##########
+ # Plasma #
+ ##########
+
+ # Specialised Plasma Cannons IV
+
+ usem_tech_plasma_4: "Specialised Plasma Cannons"
+ usem_tech_plasma_4_desc: "Specialised plasma cannons allow us to deal huge armour and hull damage at close range. These plasma cannons are no longer suitable as large long range weapons due to their uncontained volataility and how quickly the plasma cools over long distance."
+
+ USEM_PLASMA_4: "Standard Specialised Plasma Cannons"
+ USEM_PLASMA_4_DESC: "The standard variation of the specialised plasma cannons, similar but more advanced than the standard plasma cannons that came before it."
+ USEM_SMALL_PLASMA_4: "Small Standard Specialised Plasma Cannons"
+
+ USEM_PLASMA_CQB_4: "CQB Specialised Plasma Cannons"
+ USEM_PLASMA_CQB_4_DESC: "These plasma cannons deal immense damage to armour and hull but require a very close range to the target. They also suffer greatly against shields."
+ USEM_SMALL_PLASMA_CQB_4: "Small CQB Specialised Plasma Cannons"
+
+ USEM_PLASMA_AH_4: "Anti-hull Specialised Plasma Cannons"
+ USEM_PLASMA_AH_4_DESC: "These plasma cannons are specialised for anti-hull but suffer greatly against shields."
+ USEM_SMALL_PLASMA_AH_4: "Small Anti-hull Specialised Plasma Cannons"
+
+ USEM_PLASMA_RF_4: "Rapid Fire Specialised Plasma Cannons"
+ USEM_PLASMA_RF_4_DESC: "These plasma cannons can fire vast quanities of plasma at the target at a much higher rate than the other variations of plasma cannons. However, they do suffer a damage penalty due to their smaller payload size needed to rapid fire the plasma."
+ USEM_SMALL_PLASMA_RF_4: "Small Rapid Fire Specialised Plasma Cannons"
