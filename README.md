@@ -138,6 +138,7 @@ New ship components unlocked via the new technologies.
       - Standard Specialised Laser
       - Anti-armour Specialised Laser
       - Anti-hull Specialised Laser
+      - Precision Specialised Laser
 
 ## New icons
 
@@ -152,6 +153,7 @@ New ship components unlocked via the new technologies.
       - Standard Specialised Laser
       - Anti-armour Specialised Laser
       - Anti-hull Specialised Laser
+      - Precision Speciliased Laser
 
 ## Overwrites
 
