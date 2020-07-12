@@ -250,3 +250,7 @@
  USEM_LASER_AH_6_DESC: "This laser is specialised for anti-hull but suffers greatly against shields and armour."
  USEM_MEDIUM_LASER_AH_6: "Medium Anti-hull Specialised Laser"
  USEM_LARGE_LASER_AH_6: "Large Anti-hull Specialised Laser"
+
+ USEM_LASER_P_6: "Precision Specialised Laser"
+ USEM_LASER_P_6_DESC: "This laser is specialised for long range but suffers lower overall damage to the standard specialised laser."
+ USEM_LARGE_LASER_P_6: "Large Precision Specialised Laser"
