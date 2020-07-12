@@ -1,0 +1,221 @@
+########
+# Cost #
+########
+
+# Alloys
+@cost_alloys_s6 = 25
+
+# Exotic Gases
+@cost_gas_s6 = 0.43
+
+##########
+# Upkeep #
+##########
+
+# Alloys
+@upkeep_alloys_s6 = 0.05
+
+# Energy
+@upkeep_energy_s6 = 0.25
+
+#########
+# Power #
+#########
+
+@power_s6 = -20
+
+# Standard Specialised Plasma Cannons
+weapon_component_template = {
+	key = "USEM_SMALL_PLASMA_4"
+    icon = "GFX_usem_ship_part_plasma_4"
+	icon_frame = 1
+    component_set = "USEM_PLASMA_4"
+    
+	size = small
+	type = instant
+	tags = { weapon_type_energy }
+    projectile_gfx = "plasma_cannon_s"
+
+    ai_tags = { weapon_role_anti_armor }
+    ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+
+	power = @power_s6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s6
+			exotic_gases = @cost_gas_s6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s6
+			alloys = @upkeep_alloys_s6
+		}
+	}
+
+    prerequisites = { "usem_tech_plasma_4" }
+
+	damage = { min = 30 max = 60 }
+    shield_damage = 0.10
+	armor_damage = 4.00
+    hull_damage = 1.50
+	range = 40.0
+	accuracy = 0.80
+	tracking = 0.40
+
+	windup = { min = 2 max = 20 }
+	total_fire_time = 20
+}
+
+# CQB Specialised Plasma Cannons
+weapon_component_template = {
+	key = "USEM_SMALL_PLASMA_CQB_4"
+    icon = "GFX_usem_ship_part_plasma_CQB_4"
+	icon_frame = 1
+    component_set = "USEM_PLASMA_CQB_4"
+    
+	size = small
+	type = instant
+	tags = { weapon_type_energy }
+    projectile_gfx = "plasma_cannon_s"
+
+    ai_tags = { weapon_role_anti_armor }
+    ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+
+	power = @power_s6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s6
+			exotic_gases = @cost_gas_s6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s6
+			alloys = @upkeep_alloys_s6
+		}
+	}
+
+    prerequisites = { "usem_tech_plasma_4" }
+
+	damage = { min = 50 max = 100 }
+    shield_damage = 0.01
+	armor_damage = 11.00
+    hull_damage = 1.50
+	range = 15.0
+	accuracy = 0.90
+	tracking = 0.90
+
+	windup = { min = 2 max = 20 }
+	total_fire_time = 20
+}
+
+# Anti-hull Specialised Plasma Cannons
+weapon_component_template = {
+	key = "USEM_SMALL_PLASMA_AH_4"
+    icon = "GFX_usem_ship_part_plasma_AH_4"
+	icon_frame = 1
+    component_set = "USEM_PLASMA_AH_4"
+    
+	size = small
+	type = instant
+	tags = { weapon_type_energy }
+    projectile_gfx = "plasma_cannon_s"
+
+    ai_tags = { weapon_role_anti_hull }
+    ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+
+	power = @power_s6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s6
+			exotic_gases = @cost_gas_s6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s6
+			alloys = @upkeep_alloys_s6
+		}
+	}
+
+    prerequisites = { "usem_tech_plasma_4" }
+
+	damage = { min = 25 max = 50 }
+    shield_damage = 0.01
+	armor_damage = 1.50
+    hull_damage = 5.00
+	range = 40.0
+	accuracy = 0.80
+	tracking = 0.40
+
+	windup = { min = 2 max = 20 }
+	total_fire_time = 20
+}
+
+# Rapid Fire Specialised Plasma Cannons
+weapon_component_template = {
+	key = "USEM_SMALL_PLASMA_RF_4"
+    icon = "GFX_usem_ship_part_plasma_RF_4"
+	icon_frame = 1
+    component_set = "USEM_PLASMA_RF_4"
+    
+	size = small
+	type = instant
+	tags = { weapon_type_energy }
+    projectile_gfx = "plasma_cannon_s"
+
+    ai_tags = { weapon_role_anti_armor }
+    ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+
+	power = @power_s6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s6
+			exotic_gases = @cost_gas_s6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s6
+			alloys = @upkeep_alloys_s6
+		}
+	}
+
+    prerequisites = { "usem_tech_plasma_4" }
+
+	damage = { min = 15 max = 30 }
+    shield_damage = 0.10
+	armor_damage = 2.00
+    hull_damage = 1.50
+	range = 25.0
+	accuracy = 0.50
+	tracking = 0.35
+
+	windup = { min = 1 max = 10 }
+	total_fire_time = 10
+}

@@ -1,0 +1,27 @@
+component_set = {
+	key = "USEM_PLASMA_4"
+	
+	icon = "GFX_usem_ship_part_plasma_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_PLASMA_CQB_4"
+	
+	icon = "GFX_usem_ship_part_plasma_CQB_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_PLASMA_AH_4"
+	
+	icon = "GFX_usem_ship_part_plasma_AH_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_PLASMA_RF_4"
+	
+	icon = "GFX_usem_ship_part_plasma_RF_4"
+	icon_frame = 1	
+}

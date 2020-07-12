@@ -79,4 +79,20 @@ spriteTypes = {
 		name = "GFX_usem_ship_part_laser_P_6"
 		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_laser_P_6.dds"
 	}
+	spriteType = {
+		name = "GFX_usem_ship_part_plasma_4"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_plasma_4.dds"
+	}
+	spriteType = {
+		name = "GFX_usem_ship_part_plasma_CQB_4"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_plasma_CQB_4.dds"
+	}
+	spriteType = {
+		name = "GFX_usem_ship_part_plasma_AH_4"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_plasma_AH_4.dds"
+	}
+	spriteType = {
+		name = "GFX_usem_ship_part_plasma_RF_4"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_plasma_RF_4.dds"
+	}
 }
