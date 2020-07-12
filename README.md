@@ -38,6 +38,9 @@ The mod adds many new technologies to be researched or discovered via insight.
 ### Lasers
   - `Tier VI` -- Specialised Lasers `(rare)`
 
+## Plasma
+  - `Tier IV` -- Specialised Plasma Cannons `(rare)`
+
 ## New ship components
 
 New ship components unlocked via the new technologies.
@@ -129,7 +132,7 @@ New ship components unlocked via the new technologies.
     - `Platform` -- Dark Energy Reactor
 
 ### Lasers
-  - `Tier VI`
+  - `Tier VI` Specialised
     - `Medium`
       - Standard Specialised Laser
       - Anti-armour Specialised Laser
@@ -140,20 +143,34 @@ New ship components unlocked via the new technologies.
       - Anti-hull Specialised Laser
       - Precision Specialised Laser
 
+### Plasma
+  - `Tier IV` Specialised
+    - `Small`
+      - Standard Specialised Plasma Cannons
+      - CQB Specialised Plasma Cannons
+      - Anti-hull Specialised Plasma Cannons
+      - Rapid Fire Specialised Plasma Cannons
+
 ## New icons
 
-  - Shields
+  - **Shields** (components and tech)
     - `Tier VI -> Tier X`
-  - Armour
+  - **Armour** (components and tech)
     - `Tier VI -> Tier X`
-  - Reactors
+  - **Reactors** (components and tech)
     - `Tier VI -> Tier X`
-  - Lasers
+  - **Lasers** (components and tech)
     - `Tier VI`
       - Standard Specialised Laser
       - Anti-armour Specialised Laser
       - Anti-hull Specialised Laser
       - Precision Speciliased Laser
+  - **Plasma** (components and tech)
+    - `Tier IV`
+      - Standard Specialised Plasma Cannons
+      - CQB Specialised Plasma Cannons
+      - Anti-hull Specialised Plasma Cannons
+      - Rapid Fire Specialised Plasma Cannons
 
 ## Overwrites
 
