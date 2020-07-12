@@ -331,7 +331,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
     projectile_gfx = "infrared_laser_l"
 
-    ai_tags = { weapon_role_anti_armor }
+    ai_tags = { weapon_role_anti_armor, weapon_role_artillery }
     ai_weight = {
 		weight = 1
 		modifier = {
