@@ -1,0 +1,81 @@
+# Specialised Lasers VI
+usem_tech_lasers_6 = {
+	area = physics
+	cost = @tier4cost3
+	tier = 4
+	category = { particles }
+	ai_update_type = military
+    is_rare = yes
+	prerequisites = { "tech_lasers_5" }
+	weight = @tier4weight3
+		
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 # rush component!
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+# Specialised Plasma Cannons IV
+usem_tech_plasma_4 = {
+	area = physics
+	cost = @tier4cost2
+	tier = 4
+	category = { particles }
+	ai_update_type = military	
+    is_rare = yes
+	prerequisites = { "tech_plasma_3" }
+	weight = @tier4weight2
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}	
+	}
+	
+	ai_weight = {
+		factor = 2		#weapons are good
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
