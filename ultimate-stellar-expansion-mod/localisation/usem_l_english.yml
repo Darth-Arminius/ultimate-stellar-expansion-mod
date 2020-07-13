@@ -279,3 +279,26 @@
  USEM_PLASMA_RF_4: "Rapid Fire Specialised Plasma Cannons"
  USEM_PLASMA_RF_4_DESC: "These plasma cannons can fire vast quanities of plasma at the target at a much higher rate than the other variations of plasma cannons. However, they do suffer a damage penalty due to their smaller payload size needed to rapid fire the plasma."
  USEM_SMALL_PLASMA_RF_4: "Small Rapid Fire Specialised Plasma Cannons"
+
+ ################
+ # Mass Drivers #
+ ################
+
+ # Specialised Gauss Cannons VI
+
+ usem_tech_mass_drivers_6: "Specialised Gauss Cannons"
+ usem_tech_mass_drivers_6_desc: "Specialised gauss cannons are more effective at shield damage than their predecessors. They have a greater range and overall stopping power, however, they suffer even more from armour than before."
+
+ USEM_MASS_DRIVER_6: "Standard Specialised Gauss Cannons"
+ USEM_MASS_DRIVER_6_DESC: "The standard variation of the specialised gauss cannons, similar but more advanced than the standard gauss cannons that came before it."
+ USEM_MEDIUM_MASS_DRIVER_6: "Medium Standard Specialised Gauss Cannons"
+ USEM_LARGE_MASS_DRIVER_6: "Large Standard Specialised Gauss Cannons"
+
+ USEM_MASS_DRIVER_AS_6: "Anti-shield Specialised Gauss Cannons"
+ USEM_MASS_DRIVER_AS_6_DESC: "These gauss cannons have been specialised to focus on their ability to effectively shred shields, at the cost of suffering greatly from armour and hull."
+ USEM_MEDIUM_MASS_DRIVER_AS_6: "Medium Anti-shield Specialised Gauss Cannons"
+ USEM_LARGE_MASS_DRIVER_AS_6: "Large Anti-shield Specialised Gauss Cannons"
+
+ USEM_MASS_DRIVER_P_6: "Precision Specialised Gauss Cannons"
+ USEM_MASS_DRIVER_P_6_DESC: "These gauss cannons have a huge range and are pin-point accurate. However, they have lower overall damage than the standard specialised gauss cannons."
+ USEM_LARGE_MASS_DRIVER_P_6: "Large Precision Specialised Gauss Cannons"
