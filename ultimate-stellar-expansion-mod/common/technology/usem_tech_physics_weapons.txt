@@ -12,6 +12,14 @@ usem_tech_lasers_6 = {
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
 			research_leader = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
@@ -20,7 +28,7 @@ usem_tech_lasers_6 = {
 	}	
 	
 	ai_weight = {
-		factor = 3 # rush component!
+		factor = 2
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -61,7 +69,7 @@ usem_tech_plasma_4 = {
 	}
 	
 	ai_weight = {
-		factor = 2		#weapons are good
+		factor = 2
 		modifier = {
 			factor = 1.25
 			has_ethic = ethic_militarist

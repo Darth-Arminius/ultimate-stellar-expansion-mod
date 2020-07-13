@@ -319,7 +319,6 @@ weapon_component_template = {
 }
 
 # Precision Specialised Laser
-
 weapon_component_template = {
 	key = "USEM_LARGE_LASER_P_6"
     icon = "GFX_usem_ship_part_laser_P_6"
