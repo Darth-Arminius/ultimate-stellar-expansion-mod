@@ -38,8 +38,11 @@ The mod adds many new technologies to be researched or discovered via insight.
 ### Lasers
   - `Tier VI` -- Specialised Lasers `(rare)`
 
-## Plasma
+### Plasma
   - `Tier IV` -- Specialised Plasma Cannons `(rare)`
+
+### Mass Drivers
+  - `Tier VI` -- Specialised Gauss Cannons `(rare)`
 
 ## New ship components
 
@@ -151,6 +154,16 @@ New ship components unlocked via the new technologies.
       - Anti-hull Specialised Plasma Cannons
       - Rapid Fire Specialised Plasma Cannons
 
+### Mass Drivers
+  - `Tier VI` Specialised
+    - `Medium`
+      - Standard Specialised Gauss Cannons
+      - Anti-shield Specialised Gauss Cannons
+    - `Large`
+      - Standard Specialised Gauss Cannons
+      - Anti-shield Specialised Gauss Cannons
+      - Precision Specialised Gauss Cannons
+      
 ## New icons
 
   - **Shields** (components and tech)
@@ -171,6 +184,11 @@ New ship components unlocked via the new technologies.
       - CQB Specialised Plasma Cannons
       - Anti-hull Specialised Plasma Cannons
       - Rapid Fire Specialised Plasma Cannons
+  - **Mass Drivers** (components and tech)
+    - `Tier VI`
+      - Standard Specialised Gauss Cannons
+      - Anti-shield Specialised Gauss Cannons
+      - Precision Specialised Gauss Cannons
 
 ## Overwrites
 
