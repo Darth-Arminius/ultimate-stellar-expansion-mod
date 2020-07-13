@@ -1,0 +1,273 @@
+########
+# Cost #
+########
+
+# Alloys
+@cost_alloys_m6 = 70
+@cost_alloys_l6 = 140
+
+# Rare Crystals
+@cost_motes_m6 = 0.80
+@cost_motes_l6 = 1.60
+
+##########
+# Upkeep #
+##########
+
+# Alloys
+@upkeep_alloys_m6 = 0.07
+@upkeep_alloys_l6 = 0.14
+
+# Energy
+@upkeep_energy_m6 = 0.56
+@upkeep_energy_l6 = 1.12
+
+#########
+# Power #
+#########
+
+@power_m6 = -40
+@power_l6 = -80
+
+# Standard Specialised Gauss Cannons
+weapon_component_template = {
+	key = "USEM_MEDIUM_MASS_DRIVER_6"
+    icon = "GFX_usem_ship_part_mass_driver_6"
+	icon_frame = 1
+	component_set = "USEM_MASS_DRIVER_6"
+
+	size = medium
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "gauss_cannon_m"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_m6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m6
+			volatile_motes = @cost_motes_m6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m6
+			alloys = @upkeep_alloys_m6
+		}
+	}
+
+	prerequisites = { "usem_tech_mass_drivers_6" }
+
+    damage = { min = 40 max = 125 }
+    shield_damage = 2.00
+	armor_damage = 0.25
+    hull_damage = 1.00
+	range = 60.0
+	accuracy = 0.75
+	tracking = 0.30
+
+	windup = { min = 1 max = 18 }
+	total_fire_time = 25
+}
+
+weapon_component_template = {
+	key = "USEM_LARGE_MASS_DRIVER_6"
+    icon = "GFX_usem_ship_part_mass_driver_6"
+	icon_frame = 1
+	component_set = "USEM_MASS_DRIVER_6"
+
+	size = large
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "gauss_cannon_l"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_l6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l6
+			volatile_motes = @cost_motes_l6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l6
+			alloys = @upkeep_alloys_l6
+		}
+	}
+
+	prerequisites = { "usem_tech_mass_drivers_6" }
+
+    damage = { min = 100 max = 300 }
+    shield_damage = 2.00
+	armor_damage = 0.25
+    hull_damage = 1.00
+	range = 130.0
+	accuracy = 0.75
+	tracking = 0.05
+
+	windup = { min = 1 max = 18 }
+	total_fire_time = 25
+}
+
+# Anti-shield Specialised Gauss Cannons
+weapon_component_template = {
+	key = "USEM_MEDIUM_MASS_DRIVER_AS_6"
+    icon = "GFX_usem_ship_part_mass_driver_AS_6"
+	icon_frame = 1
+	component_set = "USEM_MASS_DRIVER_AS_6"
+
+	size = medium
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "gauss_cannon_m"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_m6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_m6
+			volatile_motes = @cost_motes_m6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_m6
+			alloys = @upkeep_alloys_m6
+		}
+	}
+
+	prerequisites = { "usem_tech_mass_drivers_6" }
+
+    damage = { min = 50 max = 150 }
+    shield_damage = 5.00
+	armor_damage = 0.01
+    hull_damage = 0.01
+	range = 60.0
+	accuracy = 0.75
+	tracking = 0.30
+
+	windup = { min = 1 max = 18 }
+	total_fire_time = 25
+}
+
+weapon_component_template = {
+	key = "USEM_LARGE_MASS_DRIVER_AS_6"
+    icon = "GFX_usem_ship_part_mass_driver_AS_6"
+	icon_frame = 1
+	component_set = "USEM_MASS_DRIVER_AS_6"
+
+	size = large
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "gauss_cannon_l"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_l6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l6
+			volatile_motes = @cost_motes_l6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l6
+			alloys = @upkeep_alloys_l6
+		}
+	}
+
+	prerequisites = { "usem_tech_mass_drivers_6" }
+
+    damage = { min = 125 max = 375 }
+    shield_damage = 5.00
+	armor_damage = 0.01
+    hull_damage = 0.01
+	range = 130.0
+	accuracy = 0.75
+	tracking = 0.05
+
+	windup = { min = 1 max = 18 }
+	total_fire_time = 25
+}
+
+# Precision Specialised Gauss Cannons
+weapon_component_template = {
+	key = "USEM_LARGE_MASS_DRIVER_P_6"
+    icon = "GFX_usem_ship_part_mass_driver_P_6"
+	icon_frame = 1
+	component_set = "USEM_MASS_DRIVER_P_6"
+
+	size = large
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "gauss_cannon_l"
+	
+	ai_tags = { weapon_role_anti_shield, weapon_role_artillery }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_l6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_l6
+			volatile_motes = @cost_motes_l6
+		}		
+		upkeep = {
+			energy = @upkeep_energy_l6
+			alloys = @upkeep_alloys_l6
+		}
+	}
+
+	prerequisites = { "usem_tech_mass_drivers_6" }
+
+    damage = { min = 75 max = 200 }
+    shield_damage = 2.00
+	armor_damage = 0.25
+    hull_damage = 1.00
+	range = 250.0
+	accuracy = 0.90
+	tracking = 0.05
+
+	windup = { min = 1 max = 18 }
+	total_fire_time = 25
+}

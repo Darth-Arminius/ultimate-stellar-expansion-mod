@@ -1,0 +1,20 @@
+component_set = {
+	key = "USEM_MASS_DRIVER_6"
+	
+	icon = "GFX_usem_ship_part_mass_driver_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_MASS_DRIVER_AS_6"
+	
+	icon = "GFX_usem_ship_part_mass_driver_AS_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_MASS_DRIVER_P_6"
+	
+	icon = "GFX_usem_ship_part_mass_driver_P_6"
+	icon_frame = 1	
+}

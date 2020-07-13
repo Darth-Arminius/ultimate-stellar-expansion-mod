@@ -95,4 +95,16 @@ spriteTypes = {
 		name = "GFX_usem_ship_part_plasma_RF_4"
 		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_plasma_RF_4.dds"
 	}
+	spriteType = {
+		name = "GFX_usem_ship_part_mass_driver_6"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_mass_driver_6.dds"
+	}
+	spriteType = {
+		name = "GFX_usem_ship_part_mass_driver_AS_6"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_mass_driver_AS_6.dds"
+	}
+	spriteType = {
+		name = "GFX_usem_ship_part_mass_driver_P_6"
+		texturefile = "gfx/interface/icons/ship_parts/usem_ship_part_mass_driver_P_6.dds"
+	}
 }
