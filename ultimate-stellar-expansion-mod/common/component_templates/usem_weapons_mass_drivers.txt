@@ -6,7 +6,7 @@
 @cost_alloys_m6 = 70
 @cost_alloys_l6 = 140
 
-# Rare Crystals
+# Volatile Motes
 @cost_motes_m6 = 0.80
 @cost_motes_l6 = 1.60
 
