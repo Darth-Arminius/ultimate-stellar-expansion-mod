@@ -302,3 +302,24 @@
  USEM_MASS_DRIVER_P_6: "Precision Specialised Gauss Cannons"
  USEM_MASS_DRIVER_P_6_DESC: "These gauss cannons have a huge range and are pin-point accurate. However, they have lower overall damage than the standard specialised gauss cannons."
  USEM_LARGE_MASS_DRIVER_P_6: "Large Precision Specialised Gauss Cannons"
+
+ ################
+ # Auto-Cannons #
+ ################
+
+ # Specialised Auto-Cannons IV
+
+ usem_tech_autocannons_4: "Specialised Auto-Cannons"
+ usem_tech_autocannons_4_desc: "Specialised auto-cannons allow us to deal huge shield and hull damage at close range but suffer from armour and limited to short range."
+
+ USEM_AUTOCANNONS_4: "Standard Specialised Auto-Cannons"
+ USEM_AUTOCANNONS_4_DESC: "The standard variation of the specialised auto-cannons, similar but more advanced than the standard auto-cannons that came before it."
+
+ USEM_AUTOCANNONS_CQB_4: "CQB Specialised Auto-Cannons"
+ USEM_AUTOCANNONS_CQB_4_DESC: "These auto-cannons deal immense damage to shields and hull but require a very close range to the target. They also suffer greatly against armour."
+
+ USEM_AUTOCANNONS_AH_4: "Anti-hull Specialised Auto-Cannons"
+ USEM_AUTOCANNONS_AH_4_DESC: "These auto-cannons are specialised for anti-hull but suffer greatly against armour."
+
+ USEM_AUTOCANNONS_RF_4: "Rapid Fire Specialised Auto-Cannons"
+ USEM_AUTOCANNONS_RF_4_DESC: "These auto-cannons can unload rounds faster than any other weapon. However, they do suffer a damage penalty due to their smaller payload size."
