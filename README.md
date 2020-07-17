@@ -44,6 +44,9 @@ The mod adds many new technologies to be researched or discovered via insight.
 ### Mass Drivers
   - `Tier VI` -- Specialised Gauss Cannons `(rare)`
 
+### Auto-Cannons
+  - `Tier IV` -- Specialised Auto-Cannons `(rare)`
+
 ## New ship components
 
 New ship components unlocked via the new technologies.
@@ -163,6 +166,14 @@ New ship components unlocked via the new technologies.
       - Standard Specialised Gauss Cannons
       - Anti-shield Specialised Gauss Cannons
       - Precision Specialised Gauss Cannons
+
+### Auto-Cannons
+  - `Tier IV` Specialised
+    - `Small`
+      - Standard Specialised Auto-Cannons
+      - CQB Specialised Auto-Cannons
+      - Anti-hull Specialised Auto-Cannons
+      - Rapid Fire Specialised Auto-Cannons
       
 ## New icons
 
@@ -189,6 +200,12 @@ New ship components unlocked via the new technologies.
       - Standard Specialised Gauss Cannons
       - Anti-shield Specialised Gauss Cannons
       - Precision Specialised Gauss Cannons
+  - **Auto-Cannons** (components and tech)
+    - `Tier IV`
+      - Standard Specialised Auto-Cannons
+      - CQB Specialised Auto-Cannons
+      - Anti-hull Specialised Auto-Cannons
+      - Rapid Fire Specialised Auto-Cannons
 
 ## Overwrites
 
