@@ -1,0 +1,27 @@
+component_set = {
+	key = "USEM_AUTOCANNONS_4"
+	
+	icon = "GFX_usem_ship_part_autocannons_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_AUTOCANNONS_CQB_4"
+	
+	icon = "GFX_usem_ship_part_autocannons_CQB_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_AUTOCANNONS_AH_4"
+	
+	icon = "GFX_usem_ship_part_autocannons_AH_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "USEM_AUTOCANNONS_RF_4"
+	
+	icon = "GFX_usem_ship_part_autocannons_RF_4"
+	icon_frame = 1	
+}

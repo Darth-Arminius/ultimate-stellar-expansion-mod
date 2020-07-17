@@ -1,0 +1,221 @@
+########
+# Cost #
+########
+
+# Alloys
+@cost_alloys_s4 = 30
+
+# Volatile Motes
+@cost_motes_s4 = 0.43
+
+##########
+# Upkeep #
+##########
+
+# Alloys
+@upkeep_alloys_s4 = 0.060
+
+# Energy
+@upkeep_energy_s4 = 0.30
+
+#########
+# Power #
+#########
+
+@power_s4 = -22
+
+# Standard Specialised Auto-Cannons
+weapon_component_template = {
+	key = "USEM_AUTOCANNONS_4"
+    icon = "GFX_usem_ship_part_autocannons_4"
+	icon_frame = 1
+	component_set = "USEM_AUTOCANNONS_4"
+
+	size = small
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "stormfire_auto_cannons_s"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_s4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s4
+			volatile_motes = @cost_motes_s4
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s4
+			alloys = @upkeep_alloys_s4
+		}
+	}
+
+	prerequisites = { "usem_tech_autocannons_4" }
+
+    damage = { min = 30- max = 60 }
+    shield_damage = 4.00
+	armor_damage = 0.10
+    hull_damage = 1.50
+	range = 30.0
+	accuracy = 0.85
+	tracking = 0.75
+
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+}
+
+# CQB Specialised Auto-Cannons
+weapon_component_template = {
+	key = "USEM_AUTOCANNONS_CQB_4"
+    icon = "GFX_usem_ship_part_autocannons_CQB_4"
+	icon_frame = 1
+	component_set = "USEM_AUTOCANNONS_CQB_4"
+
+	size = small
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "stormfire_auto_cannons_s"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_s4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s4
+			volatile_motes = @cost_motes_s4
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s4
+			alloys = @upkeep_alloys_s4
+		}
+	}
+
+	prerequisites = { "usem_tech_autocannons_4" }
+
+    damage = { min = 50 max = 100 }
+    shield_damage = 11.00
+	armor_damage = 0.01
+    hull_damage = 1.50
+	range = 15.0
+	accuracy = 0.90
+	tracking = 0.90
+
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+}
+
+# Anti-hull Specialised Auto-Cannons
+weapon_component_template = {
+	key = "USEM_AUTOCANNONS_AH_4"
+    icon = "GFX_usem_ship_part_autocannons_AH_4"
+	icon_frame = 1
+	component_set = "USEM_AUTOCANNONS_AH_4"
+
+	size = small
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "stormfire_auto_cannons_s"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_s4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s4
+			volatile_motes = @cost_motes_s4
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s4
+			alloys = @upkeep_alloys_s4
+		}
+	}
+
+	prerequisites = { "usem_tech_autocannons_4" }
+
+    damage = { min = 25 max = 50 }
+    shield_damage = 1.50
+	armor_damage = 0.01
+    hull_damage = 5.00
+	range = 30.0
+	accuracy = 0.85
+	tracking = 0.75
+
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+}
+
+# Rapid Fire Specialised Auto-Cannons
+weapon_component_template = {
+	key = "USEM_AUTOCANNONS_RF_4"
+    icon = "GFX_usem_ship_part_autocannons_RF_4"
+	icon_frame = 1
+	component_set = "USEM_AUTOCANNONS_RF_4"
+
+	size = small
+	type = instant
+	tags = { weapon_type_kinetic }
+	projectile_gfx = "stormfire_auto_cannons_s"
+	
+	ai_tags = { weapon_role_anti_shield }
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			is_country_type = default
+			has_monthly_income = { resource = volatile_motes value <= 0 }
+		}
+	}
+	
+	power = @power_s4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_alloys_s4
+			volatile_motes = @cost_motes_s4
+		}		
+		upkeep = {
+			energy = @upkeep_energy_s4
+			alloys = @upkeep_alloys_s4
+		}
+	}
+
+	prerequisites = { "usem_tech_autocannons_4" }
+
+    damage = { min = 15 max = 30 }
+    shield_damage = 2.00
+	armor_damage = 0.10
+    hull_damage = 1.50
+	range = 25.0
+	accuracy = 0.75
+	tracking = 0.50
+
+	windup = { min = 1 max = 10 }
+	total_fire_time = 10
+}
